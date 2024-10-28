@@ -1,0 +1,147 @@
+########################################
+# Program: stretcher
+# Rundate: Mon 13 Feb 2023 22:38:11
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_4JK9DnCxvHs1JJRWxm/4JK9DnCxvHs1JJRWxm_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_4JK9DnCxvHs1JJRWxm/4JK9DnCxvHs1JJRWxm_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/stretcherp_4JK9DnCxvHs1JJRWxm/4JK9DnCxvHs1JJRWxm.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_4JK9DnCxvHs1JJRWxm/4JK9DnCxvHs1JJRWxm.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 914
+# Identity:     505/914 (55.3%)
+# Similarity:   537/914 (58.8%)
+# Gaps:         230/914 (25.2%)
+# Score: 1803
+# 
+#
+#=======================================
+
+               10             20        30        40     
+       PAPQECSMPH-----HQSICDETFYLMQFMIKEWTVCCSMKWFPNWQMPQ
+        ::::::::      :::::::: :::::::: :::   : :::   :::
+       FAPQECSMPGVSLHGHQSICDETTYLMQFMIKCWTV---MLWFP---MPQ
+               10        20        30           40       
+
+           50        60         70             80        
+       G-VKRGSFCMKWVKDGRKALAI-TLRIELW-----LYRYYNDMWDTKG-I
+         ::::::      .::::::. :::: :.     :::::::::: .  .
+       NRVKRGSF------NGRKALAMYTLRINLYKMPINLYRYYNDMWDKRDML
+           50              60        70        80        
+
+        90       100       110       120       130       
+       WQLWMIAYLPMWDGSGWKPNKKPGKILFLQVCMFPQHCWMDSPYCLTEYD
+       ::::::         :  ::::::::::: :::::::::::::: ::   
+       WQLWMIECCTYL---GAVPNKKPGKILFLYVCMFPQHCWMDSPYILTH--
+       90       100          110       120       130     
+
+       140             150              160       170    
+       PLYDCR------TGDNEMIKQPSIWS-------ENQGDPECANNSTNDFR
+         ::::        ::  ::::::::          : ::::: ::::::
+       GAYDCRCEYSLWNSDNGHIKQPSIWSILTMRYAPPVGGPECAN-STNDFR
+           140       150       160       170        180  
+
+            180                 190       200            
+       RNF--YWW---RYNTLQT-------VHFDMWKSLADCD------VPNAR-
+       ::   :::   ::::::        ::::::::::::       ::::: 
+       RNSFSYWWYCKRYNTLQVQPMQDFWVHFDMWKSLADCCPVDAVYVPNARM
+            190       200       210       220       230  
+
+               210       220       230          240      
+       ------RFMKEYVMGKMDVRGRGDTHYFGQEMTT---QGHNLYRTWHWFS
+             :: :::.: :         :::::::::    ::::::::::::
+       CLWMYERFWKEYLMCK---------HYFGQEMTTAWIDGHNLYRTWHWFS
+            240                250       260       270   
+
+        250            260                  270       280
+       CTHMF-----ITDNSYDLFPMYEQIE-PW----------ESVSLFKDNFP
+       :::::     .::::: :: :::::. :.          .. ::.:: ::
+       CTHMFGHKTFVTDNSYFLFAMYEQIQDPFNNPSKHRIYCQNGSLYKDGFP
+           280       290       300       310       320   
+
+              290       300       310       320          
+       IYSDQVGKLGTDDLITNALNPYTVLDPEKEEISEYQAKHDYKDAN---RV
+       ::::: :: ::::::         ::::::::    ::::::: :   : 
+       IYSDQSGKRGTDDLIFEKWK----LDPEKEEIF---AKHDYKDGNFDKRE
+           330       340           350          360      
+
+       330              340       350           360      
+       WEDTARMDEG-------MPPCWGNINHQLRT----SYKPWRCRDQSRTDH
+         :::::: :       .:::::::::   .     ::::::::::::  
+       SVDTARMDHGDDRVGTEVPPCWGNINHNYMSYKLLRYKPWRCRDQSRT--
+        370       380       390       400       410      
+
+        370       380       390       400       410      
+       VAMANNCEYYEAENEIFFRIEAGAIPLHLKPHVGGFSEINVKQPKMRDCY
+            ::::::     :. .   : :   ::    :::::::::::::::
+       -----NCEYYEVMFYHFYYLPFEAQPHFGKPDQW-FSEINVKQPKMRDCY
+               420       430       440        450        
+
+        420       430       440       450       460      
+       FHYEGNADWRINGWPWWQRDTKQYDIMYTNKMRPFYVTVCNWVPCRQWWH
+               . .   :::::: :::::::: ::::: : :::::::.::: 
+       NCVINGKAFML---PWWQRDQKQYDIMYTRKMRPFDVHVCNWVPCKQWWW
+      460          470       480       490       500     
+
+        470       480         490       500        510   
+       CKRQKCDWWMFYMPG--GAVMLWFDRQTSFDVRPFWIPSQLN-MSLHNIE
+          .::   .::::   :::: ::::       ::::::::  :::    
+       --HRKCV--LFYMPMRCGAVMRWFDR-------PFWIPSQLTQMSL----
+           510         520              530       540    
+
+           520       530       540               550     
+       NMQPPPKHISWPGHEPWPHSSLVLMWRD--------GQWDMIFQTQKHIK
+            :::::::::::::::.::::: :        :::::::       
+       -----PKHISWPGHEPWPHSTLVLMWLDPRFSTVQFGQWDMIF-------
+                   550       560       570               
+
+         560       570       580           590           
+       FYLQSEINAVYRVAPHCCVGAVAGMLDCDW----QTHGQRHMC--SVSTH
+                         ::: ::: :::     : :: .     .::::
+       ------------------VGAKAGMCDCDMSHEPQGHGMKFKKRGAVSTH
+                        580       590       600       610
+
+     600        610       620        630       640       
+       CY-PWNAETWEFLAACPCAMEVYPALDYRS-YKFSYQYGEVVVPRSKK--
+       :  :::::: ::  ::::::.:   ::::: ..:  .     :::::   
+       CQQPWNAETPEF--ACPCAMDV---LDYRSRHQFRPREYFWDVPRSKNFT
+              620         630          640       650     
+
+         650       660            670                680 
+       TYNYGNWMTQYTAYPM-----PWQFAGECKMELPY---------AHEFMF
+       ::::::: ::::         :: :::::::::::           . ::
+       TYNYGNWATQYTVMKTEIMIGPWTFAGECKMELPYRVADERFKHGQQLMF
+         660       670       680       690       700     
+
+             690       700       710       720       730 
+       EIYDDFGQGYGRITPYIYSDTTSIAKRYGEQVNDLMRWSQWYNNAKTFHP
+       ::::::::: :::: ::::::::       ..  .::::: :::::: : 
+       EIYDDFGQG-GRITKYIYSDTTSHMN--DTRLLRMMRWSQQYNNAKTMHN
+         710        720       730         740       750  
+
+                740       750       760       770        
+       I---QFNHPAVVSRLATMCEFGPWMWPRKLRLQQEISTNSRTVDCRMCGF
+       :   :::::::::: :     ::::       :::::      :   :  
+       IPERQFNHPAVVSREAF--TLGPWM-------QQEIS-RMPPHDGMYCRS
+            760         770              780        790  
+
+      780       790  
+       ADSLNIREEPTRHK
+        :: ::::::::::
+       QDSYNIREEPTRHK
+            800      
+
+
+#---------------------------------------
+#---------------------------------------

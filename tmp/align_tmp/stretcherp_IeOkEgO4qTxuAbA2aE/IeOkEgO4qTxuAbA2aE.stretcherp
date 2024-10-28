@@ -1,0 +1,69 @@
+########################################
+# Program: stretcher
+# Rundate: Wed  8 Feb 2023 01:26:55
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_IeOkEgO4qTxuAbA2aE/IeOkEgO4qTxuAbA2aE_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_IeOkEgO4qTxuAbA2aE/IeOkEgO4qTxuAbA2aE_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/stretcherp_IeOkEgO4qTxuAbA2aE/IeOkEgO4qTxuAbA2aE.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_IeOkEgO4qTxuAbA2aE/IeOkEgO4qTxuAbA2aE.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 255
+# Identity:      16/255 ( 6.3%)
+# Similarity:    21/255 ( 8.2%)
+# Gaps:         206/255 (80.8%)
+# Score: -407
+# 
+#
+#=======================================
+
+                             10        20                
+       MYES--------------IIQLQQGCGYKSIQLSFLF--------W----
+       :  :               .   ::    :   .: :        :    
+       MASSAASSSSIVWRLLFVFMSFFQGTTLVSGATTFTFTNRCGGTVWPGVL
+               10        20        30        40        50
+
+                 30                                      
+       ------LLDILYIYI-----------------------------------
+              ::     .                                   
+       ANAGSPALDTTGFALVSGESRSLSAPPGWSGRFWARTGCAFDSDAGSGKC
+               60        70        80        90       100
+
+                                                         
+       -------------------------------------EYYQ---------
+                                            .::          
+       ATGDCGTGEAECHGAGAAPPATLIEFTLAGAGAPKQDDYYDVSLVDGYNV
+              110       120       130       140       150
+
+                                                         
+       --------------------------------------------------
+                                                         
+       PVVVEAAGCPATGCAADLDERCPPELRATGGSGCRSACEAFGRPEDCCSG
+              160       170       180       190       200
+
+                                                40       
+       ----------------------------------------GSTRLELT--
+                                               ::    .:  
+       PEFGSPGACRPSAYSQVFKAACPRAYSYAYDDATSTFTCSGSGAYSVTFC
+              210       220       230       240       250
+
+            
+       -RLQT
+        :   
+       PRAGA
+            
+
+
+#---------------------------------------
+#---------------------------------------

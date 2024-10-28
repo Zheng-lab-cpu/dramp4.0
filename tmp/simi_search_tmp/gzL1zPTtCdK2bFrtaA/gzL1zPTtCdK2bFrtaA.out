@@ -1,0 +1,342 @@
+BLASTP 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= 01
+
+Length=41
+
+
+***** No hits found *****
+
+
+
+Lambda     K      H
+   0.321    0.134    0.361 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 18434920
+
+
+Query= 02
+
+Length=24
+
+
+***** No hits found *****
+
+
+
+Lambda     K      H
+   0.333    0.150    0.451 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 16712544
+
+
+Query= 03
+
+Length=14
+
+
+***** No hits found *****
+
+
+
+Lambda     K      H
+   0.341    0.141    0.372 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 9748984
+
+
+Query= 04
+
+Length=17
+
+
+***** No hits found *****
+
+
+
+Lambda     K      H
+   0.329    0.140    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 11838052
+
+
+Query= 05
+
+Length=20
+
+
+***** No hits found *****
+
+
+
+Lambda     K      H
+   0.340    0.137    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 13927120
+
+
+Query= 06
+
+Length=28
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP00468                                                          21.6    6.6  
+
+
+> DRAMP00468
+Length=48
+
+ Score = 21.6 bits (44),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 7/25 (28%), Positives = 12/25 (48%), Gaps = 0/25 (0%)
+
+Query  4   TRVRTTCVWTHVRSICVCVLACVNV  28
+                 C   H+R +C C L C+++
+Sbjct  18  DESHGNCKQHHLRVVCTCTLDCLDI  42
+
+
+
+Lambda     K      H
+   0.342    0.138    0.567 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 18038214
+
+
+Query= 07
+
+Length=18
+
+
+***** No hits found *****
+
+
+
+Lambda     K      H
+   0.332    0.149    0.357 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 12534408
+
+
+Query= 08
+
+Length=13
+
+
+***** No hits found *****
+
+
+
+Lambda     K      H
+   0.337    0.141    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 9052628
+
+
+Query= 09
+
+Length=13
+
+
+***** No hits found *****
+
+
+
+Lambda     K      H
+   0.344    0.149    0.384 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 9052628
+
+
+Query= 10
+
+Length=43
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP12231                                                          23.1    1.8  
+  DRAMP12323                                                          22.3    3.0  
+
+
+> DRAMP12231
+Length=58
+
+ Score = 23.1 bits (48),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 10/42 (24%), Positives = 21/42 (50%), Gaps = 4/42 (9%)
+
+Query  1   AVLLFLGLYLYISFTRGVCKS----KTRMDGKTVIITGCTSG  38
+           +V+LF+ LYL++ +    C +    + +  G    +  C +G
+Sbjct  10  SVILFVSLYLFVIYAEKECDTDADCRKKFAGANQHLLWCNNG  51
+
+
+> DRAMP12323
+Length=60
+
+ Score = 22.3 bits (46),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 11/24 (46%), Positives = 15/24 (63%), Gaps = 1/24 (4%)
+
+Query  1   AVLLFLGLYLYISFTR-GVCKSKT  23
+           A++LFL L+L   F R G C S +
+Sbjct  10  AIILFLSLFLVTYFERFGPCSSDS  33
+
+
+
+Lambda     K      H
+   0.326    0.143    0.423 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 17943768
+
+
+Query= 11
+
+Length=35
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP12035                                                          21.6    6.0  
+  DRAMP00947                                                          20.8    9.0  
+
+
+> DRAMP12035
+Length=67
+
+ Score = 21.6 bits (44),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 7/10 (70%), Positives = 9/10 (90%), Gaps = 0/10 (0%)
+
+Query  14  PQSKCPPGYR  23
+           PQ+ CPPGY+
+Sbjct  43  PQNMCPPGYK  52
+
+
+> DRAMP00947
+Length=46
+
+ Score = 20.8 bits (42),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 7/9 (78%), Positives = 8/9 (89%), Gaps = 0/9 (0%)
+
+Query  16  SKCPPGYRH  24
+           + CPPGYRH
+Sbjct  38  TGCPPGYRH  46
+
+
+
+Lambda     K      H
+   0.321    0.139    0.466 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 18081060
+
+
+Query= 12
+
+Length=16
+
+
+***** No hits found *****
+
+
+
+Lambda     K      H
+   0.332    0.150    0.490 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 11141696
+
+
+Query= 13
+
+Length=28
+
+
+***** No hits found *****
+
+
+
+Lambda     K      H
+   0.317    0.119    0.300 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 18038214
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

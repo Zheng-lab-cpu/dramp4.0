@@ -1,0 +1,47 @@
+>[ddd]^3^^REPLACE^^27^^Syntax:
+REPLACE [LOW_PRIORITY | DELAYED]
+    [INTO] tbl_name [(col_name,...)]
+    {VALUES | VALUE} ({expr | DEFAULT},...),(...),...
+
+Or:
+
+REPLACE [LOW_PRIORITY | DELAYED]
+    [INTO] tbl_name
+    SET col_name={expr | DEFAULT}, ...
+
+Or:
+
+REPLACE [LOW_PRIORITY | DELAYED]
+    [INTO] tbl_name [(col_name,...)]
+    SELECT ...
+
+REPLACE works exactly like INSERT, except that if an old row in the
+table has the same value as a new row for a PRIMARY KEY or a UNIQUE
+index, the old row is deleted before the new row is inserted. See [HELP
+INSERT].
+
+REPLACE is a MySQL extension to the SQL standard. It either inserts, or
+deletes and inserts. For another MySQL extension to standard SQL---that
+either inserts or updates---see
+http://dev.mysql.com/doc/refman/5.5/en/insert-on-duplicate.html.
+
+Note that unless the table has a PRIMARY KEY or UNIQUE index, using a
+REPLACE statement makes no sense. It becomes equivalent to INSERT,
+because there is no index to be used to determine whether a new row
+duplicates another.
+
+Values for all columns are taken from the values specified in the
+REPLACE statement. Any missing columns are set to their default values,
+just as happens for INSERT. You cannot refer to values from the current
+row and use them in the new row. If you use an assignment such as SET
+col_name = col_name + 1, the reference to the column name on the right
+hand side is treated as DEFAULT(col_name), so the assignment is
+equivalent to SET col_name = DEFAULT(col_name) + 1.
+
+To use REPLACE, you must have both the INSERT and DELETE privileges for
+the table.
+
+URL: http://dev.mysql.com/doc/refman/5.5/en/replace.html
+
+^^^^http://dev.mysql.com/doc/refman/5.5/en/replace.html^[ddd]
+2

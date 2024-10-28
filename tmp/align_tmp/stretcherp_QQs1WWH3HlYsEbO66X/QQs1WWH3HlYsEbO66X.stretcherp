@@ -1,0 +1,39 @@
+########################################
+# Program: stretcher
+# Rundate: Fri 17 Feb 2023 00:51:35
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_QQs1WWH3HlYsEbO66X/QQs1WWH3HlYsEbO66X_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_QQs1WWH3HlYsEbO66X/QQs1WWH3HlYsEbO66X_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/stretcherp_QQs1WWH3HlYsEbO66X/QQs1WWH3HlYsEbO66X.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_QQs1WWH3HlYsEbO66X/QQs1WWH3HlYsEbO66X.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 16
+# Identity:       6/16 (37.5%)
+# Similarity:    11/16 (68.8%)
+# Gaps:           1/16 ( 6.2%)
+# Score: 31
+# 
+#
+#=======================================
+
+               10      
+       DPVFKGEYPAEMMEAL
+       .:.. : :: :..:  
+       EPLYNGRYP-ELLEWY
+                10     
+
+
+#---------------------------------------
+#---------------------------------------

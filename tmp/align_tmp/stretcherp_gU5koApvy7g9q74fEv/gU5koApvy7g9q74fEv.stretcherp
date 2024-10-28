@@ -1,0 +1,39 @@
+########################################
+# Program: stretcher
+# Rundate: Thu 16 Feb 2023 03:50:01
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_gU5koApvy7g9q74fEv/gU5koApvy7g9q74fEv_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_gU5koApvy7g9q74fEv/gU5koApvy7g9q74fEv_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/stretcherp_gU5koApvy7g9q74fEv/gU5koApvy7g9q74fEv.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_gU5koApvy7g9q74fEv/gU5koApvy7g9q74fEv.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 7
+# Identity:       5/7 (71.4%)
+# Similarity:     6/7 (85.7%)
+# Gaps:           0/7 ( 0.0%)
+# Score: 27
+# 
+#
+#=======================================
+
+             7
+       THISSEQ
+       :: .:::
+       THATSEQ
+             7
+
+
+#---------------------------------------
+#---------------------------------------

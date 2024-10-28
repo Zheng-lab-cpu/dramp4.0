@@ -1,0 +1,15 @@
+>[ddd]^495^^!=^^18^^Syntax:
+<>, !=
+
+Not equal:
+
+URL: http://dev.mysql.com/doc/refman/5.5/en/comparison-operators.html
+
+^^mysql> SELECT .01 <> 0.01;
+        -> 1
+mysql> SELECT .01 <> 0.01;
+        -> 0
+mysql> SELECT zapp <> zappp;
+        -> 1
+^^http://dev.mysql.com/doc/refman/5.5/en/comparison-operators.html^[ddd]
+2

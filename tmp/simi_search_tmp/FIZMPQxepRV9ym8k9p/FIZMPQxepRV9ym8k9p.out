@@ -1,0 +1,89 @@
+BLASTP 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= 
+Length=31
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP00183                                                          59.7    2e-11
+  DRAMP00182                                                          31.2    0.008
+  DRAMP18249                                                          24.3    0.93 
+
+
+> DRAMP00183
+Length=31
+
+ Score = 59.7 bits (143),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 31/31 (100%), Positives = 31/31 (100%), Gaps = 0/31 (0%)
+
+Query  1   DWTCWSCLVCAACSVELLNLVTAATGASTAS  31
+           DWTCWSCLVCAACSVELLNLVTAATGASTAS
+Sbjct  1   DWTCWSCLVCAACSVELLNLVTAATGASTAS  31
+
+
+> DRAMP00182
+Length=18
+
+ Score = 31.2 bits (69),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 15/18 (84%), Positives = 15/18 (84%), Gaps = 0/18 (0%)
+
+Query  1   DWTCWSCLVCAACSVELL  18
+           DWT WS LV AACSVELL
+Sbjct  1   DWTXWSXLVXAACSVELL  18
+
+
+> DRAMP18249
+Length=21
+
+ Score = 24.3 bits (51),  Expect = 0.93, Method: Compositional matrix adjust.
+ Identities = 13/19 (69%), Positives = 13/19 (69%), Gaps = 2/19 (10%)
+
+Query  1   DWTC--WSCLVCAACSVEL  17
+           DWT   WSCLVC  CSV L
+Sbjct  1   DWTFANWSCLVCDDCSVNL  19
+
+
+
+Lambda     K      H
+   0.322    0.122    0.440 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 17122952
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

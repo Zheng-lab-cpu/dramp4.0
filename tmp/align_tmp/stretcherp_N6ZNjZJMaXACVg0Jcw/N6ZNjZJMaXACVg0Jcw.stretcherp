@@ -1,0 +1,225 @@
+########################################
+# Program: stretcher
+# Rundate: Mon  9 Jan 2023 08:47:03
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_N6ZNjZJMaXACVg0Jcw/N6ZNjZJMaXACVg0Jcw_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_N6ZNjZJMaXACVg0Jcw/N6ZNjZJMaXACVg0Jcw_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/stretcherp_N6ZNjZJMaXACVg0Jcw/N6ZNjZJMaXACVg0Jcw.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_N6ZNjZJMaXACVg0Jcw/N6ZNjZJMaXACVg0Jcw.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 16
+# Extend_penalty: 4
+#
+# Length: 1566
+# Identity:     755/1566 (48.2%)
+# Similarity:   755/1566 (48.2%)
+# Gaps:         436/1566 (27.8%)
+# Score: 1901
+# 
+#
+#=======================================
+
+               10        20        30        40        50
+       TTAAACTGAAGAGTTTGATCATGGCTCAGATTGAACGCTGGCGGCATGCT
+               :::                            :: ::   :::
+       --------AAG----------------------------GGGGG---GCT
+                                                      10 
+
+               60        70        80        90       100
+       TAACACATGCAAGTCGAACGGCAGCACAGCCGGGTAACCGGTGGGTGGCG
+       : : ::::::: ::::      ::: :  :              :::: :
+       TTA-ACATGCA-GTCG------AGCGCCTC--------------GTGGAG
+               20               30                       
+
+              110       120       130       140       150
+       AGTGGCGGACGGGTGAGTAATGCGTAGGAATCTGCCTTGTAGTGGGGGAT
+         : :  ::::::::::: :  ::: :: :::: ::      :::::   
+       TTTCGGTGACGGGTGAGTGACTCGT-GGGATCTACCCGTCCTTGGGGAGC
+      40        50        60         70        80        
+
+              160       170       180       190       200
+       AACTCGGGGAAACTCGGGCTAATACCGCATACGCTCTACGGAGGAAAGCG
+       :::::  :::::::   :::: ::::     ::  :: ::   ::::   
+       AACTCCCGGAAACTAAAGCTAGTACCTACCCCGTACTTCGAGAGAAAAA-
+       90       100       110       120       130        
+
+              210       220       230       240       250
+       GGGGATCTTCGGACCTCGCGCTATGAGATGAGCCTACGTCCGATTAGCTA
+            :  ::   ::  :    :::: : : ::   :: : :::::::::
+       ----TTTATCAATCCATG---GATGA-AGGGGCTCGCGACTGATTAGCTA
+           140       150           160       170         
+
+              260       270       280       290       300
+       GTTGGCAGGGTAATGGCCTACCAAGGCGACGATCGGTAGCTGGTCTGAGA
+       :: ::   ::    :::::::  ::::::: : :  :: :::::::::::
+       GTGGGGGAGG----GGCCTACTTAGGCGACCAACCATAACTGGTCTGAGA
+     180           190       200       210       220     
+
+              310       320       330       340       350
+       GGACGATCAGCCACACTGGAACTGAGACACGGTCCAGACTCCTACGGGAG
+       : : :: :  :::: :::: ::::::: ::   ::: :::: ::::::::
+       GAATGAACGACCACCCTGGGACTGAGAGACACCCCACACTCATACGGGAG
+         230       240       250       260       270     
+
+              360       370       380       390       400
+       GCAGCAGTGGGGAATATTGGACAATGGGCGCAAGCCTGATCCAGCAATGC
+       ::::   :::::::::::     ::::::  :::::::::::::: ::::
+       GCAGGCATGGGGAATATTTTTTCATGGGCTAAAGCCTGATCCAGCCATGC
+         280       290       300       310       320     
+
+              410       420       430       440       450
+       CGCGTGTGTGAAGAAGGCCTGCGGGTTGTAAAGCACTTTAAGCAGGGAAG
+       : :::: :::::::: : :   ::::::::::   ::::   :      :
+       CCCGTGAGTGAAGAAAGACCTAGGGTTGTAAATGTCTTT---CTTTTCCG
+         330       340       350       360          370  
+
+              460       470       480       490       500
+       AAAGGTGGGGTGTTAACACCATCTCACATTGACGTTACCTGCAGAATAAG
+       :::     :                ::: ::::    ::  :  :: :::
+       AAAATAAAG----------------ACAATGAC----CC--CTCAAAAAG
+            380                           390         400
+
+              510       520       530       540       550
+       CACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACGGAGGGTGCGAGCG
+        :::::::::::      : :   ::::::::::::  :::: :: :  :
+       AACCGGCTAACTTTAACTCTGTGCCCGCGGTAATACTAAGGGGGCTAATG
+              410       420       430       440       450
+
+               560       570         580       590       
+       -TTAATCGGAATTACTGGGCGTAAAGCGC--GCGTAGGCGGTTTGTTAAG
+        ::  ::::::::::::::::::::::::  ::::  : :: :::     
+       GTTGTTCGGAATTACTGGGCGTAAAGCGCACGCGTCTG-GGATTGGGCTT
+              460       470       480        490         
+
+       600       610       620       630       640       
+       TCAGCTGTGAAAGCCCCGGGCTTAACCTGGGAATGGCAGTTGATACTGGC
+       : ::  :::::: :::    ::   :   :  :  ::  :: ::::::  
+       TTAGGGGTGAAATCCCATCCCTCGCCTCTGCCACTGCCTTTCATACTGAA
+     500       510       520       530       540         
+
+        650       660       670       680       690      
+       GA-GCTAGAGTGTGGTAGAGGGGTGTGGAATTTCCGGTGTAGCAGTGAAA
+           ::  : :   ::: ::: : :::::  ::::: :   :  ::::  
+       ACTACTCCACTTGAGTACAGGTGAGTGGAGATTCCGATTGTGGTGTGACG
+     550       560       570       580       590         
+
+        700         710       720        730        740  
+       TGCGTA-GAGAT-CGGAAGGAACACCAG-TGGCGAAGGCG-GCACCCT-G
+         :::: :: :: : ::  ::  ::::  :: :::::::: :: : ::  
+       GTCGTATGATATACAGATCGAGAACCAACTGCCGAAGGCGAGCTCACTCT
+     600       610       620       630       640         
+
+             750       760        770        780         
+       GACCAACACTGACGCTGAGG-TGCGAAAGCGTGGG-GAGCAAACAGGATT
+       : :    :::::: ::::   :: :: : :::::: ::::: ::::::: 
+       GTCTGGGACTGACACTGACACTGAGAGACCGTGGGCGAGCACACAGGATG
+     650       660       670       680       690         
+
+     790       800       810       820            830    
+       AGATACCCTGGTAGTCCACGCTGTAAACGATGAGA-----ACTAGCCGTT
+       :::::::::: :  ::::: :   : :: :: :::     ::::  :: :
+       AGATACCCTGCTCCTCCACTCCTAACACTATAAGATAGATACTACGCGCT
+     700       710       720       730       740         
+
+          840        850       860       870        880  
+       GGGCACAATCGAG-TGTTTAGTGGCGCAGCTAACGCGATAAGTTCT-CCG
+       :   :: :::    :::   :::  : : :: :::   :     :: : :
+       GTATACTATCTCTCTGTGCCGTGCTGTACCTTACGATCTTCTGCCTGCTG
+     750       760       770       780       790         
+
+            890       900       910       920       930  
+       CCTGGGGAGTACGGCCGCAAGGTTAAAACTCAAATGAATTGACGGGGGCC
+         :::::::::::     ::     :::::: :: :::::::: :  :: 
+       AGTGGGGAGTACGTATAAAAACACGAAACTCTAAAGAATTGACCGCAGCA
+     800       810       820       830       840         
+
+            940       950       960       970       980  
+       CGCACAAGCGGTGGAGCATGTGGTTTAATTCGATGCAACGCGAAGAACCT
+       :::::   : ::: ::: :::  ::::  ::::::::   ::: : : : 
+       CGCACGGACCGTGTAGCTTGTTTTTTAGCTCGATGCATAACGATGCAACC
+     850       860       870       880       890         
+
+              990      1000        1010      1020        
+       TACCTG--GTCTTGACATGTCGCGAA--CCCTTGAGAGATCGAGGGGTGC
+       :   ::  ::::::::::: :::: :  : : :::   :      : :::
+       TCATTGTCGTCTTGACATGCCGCGTATCCACATGAATTACTATAAGATGC
+     900       910       920       930       940         
+
+     1030      1040      1050      1060      1070        
+       CTTCGGGAGCGCGAACACAGGTGCTGCATGGCTGTCGTCAGCTCGTGTCG
+       :::::::: :::::   ::: :::::::::  ::: :::::::       
+       CTTCGGGAACGCGA---CAG-TGCTGCATGCATGTAGTCAGCTA------
+     950       960           970       980               
+
+     1080      1090      1100      1110      1120        
+       TGAGATGTTGGGTTAAGTCCCGTAACGAGCGCAACCCTTGTCCCTAGTTG
+                         : :::  ::          :::: :       
+       ------------------CTCGTGTCGTA--------TTGTTC-------
+                       990      1000                     
+
+     1130      1140      1150      1160      1170        
+       CCAGCGTTGAGTCGGGAACTCTAGGGAGACTGCCGGTGATAAACCGGAGG
+                                                         
+       --------------------------------------------------
+                                                         
+
+     1180      1190      1200      1210      1220        
+       AAGGTGGGGATGACGTCAAGTCATCATGGCCCTTATGACCAGGGCTACAC
+          ::: : :: ::  ::          :: :          :::  :: 
+       ---GTGTGTATTACTCCA----------GCAC----------GGCGCCAT
+          1010      1020                          1030   
+
+     1230      1240      1250      1260      1270        
+       ACGTGCTACAATGGTCGGTACAGAGGGTAGCCAAGCCGTGAGGCGGAGCC
+        : : ::    : ::                                :::
+       CCATCCTTTTTTAGT--------------------------------GCC
+          1040                                      1050 
+
+     1280      1290      1300      1310      1320        
+       AATCTCACAAAGCCGATCGTAGTCCGGATTGCAGTCTGCAACTCGACTGC
+       :                       : ::::  ::: :::: :::      
+       A-----------------------CTGATT-TAGTTTGCATCTC------
+                                    1060      1070       
+
+     1330      1340      1350      1360      1370        
+       ATGAAGTCGGAATCGCTAGTAATCGCGGATCAGCATGCCGCGGTGAATAC
+       ::::                             :::: :           
+       ATGAGA---------------------------CATGTC-----------
+                                       1080              
+
+     1380      1390      1400      1410      1420        
+       GTTCCCGGGCCTTGTACACACCGCCCGTCACACCATGGGAGTGGGTTGCA
+                   :::       : :  ::: :  : ::: : : : :: :
+       ------------TGTCTGATAAGACGATCAGAAGAAGGGCGAGAGATGAA
+                      1090      1100      1110      1120 
+
+     1430      1440      1450      1460      1470        
+       CCAGAAGCAGGTAGTCTAACCTTCGGGAGGGCGCTTGCCACGGTGTGGTT
+       :   :::       :::   ::       :::                  
+       CTCAAAG-------TCTCTACT-------GGC------------------
+                   1130                                  
+
+     1480      1490      1500      1510      1520        
+       CATGACTGGGGTGAAGTCGTAACAAGGTAGCCGTAGGGGAACCTGCGGCT
+       : : :  :  :                                       
+       CTTTATAGNNGNN-------------------------------------
+    1140      1150                                       
+
+     1530      1540    
+       GGATCACCTCCTTTCA
+                       
+       ----------------
+                       
+
+
+#---------------------------------------
+#---------------------------------------

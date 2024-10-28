@@ -1,0 +1,39 @@
+########################################
+# Program: stretcher
+# Rundate: Sat 17 Dec 2022 05:19:29
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_6UlccxJMxbon5nhQM2/6UlccxJMxbon5nhQM2_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_6UlccxJMxbon5nhQM2/6UlccxJMxbon5nhQM2_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/stretcherp_6UlccxJMxbon5nhQM2/6UlccxJMxbon5nhQM2.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_6UlccxJMxbon5nhQM2/6UlccxJMxbon5nhQM2.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 8
+# Identity:       5/8 (62.5%)
+# Similarity:     5/8 (62.5%)
+# Gaps:           1/8 (12.5%)
+# Score: 10
+# 
+#
+#=======================================
+
+              7
+       VL-TGTTS
+       :: : : :
+       VLMTATNS
+              8
+
+
+#---------------------------------------
+#---------------------------------------

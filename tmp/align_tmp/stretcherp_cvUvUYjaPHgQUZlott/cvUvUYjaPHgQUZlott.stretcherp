@@ -1,0 +1,39 @@
+########################################
+# Program: stretcher
+# Rundate: Sun 29 Jan 2023 21:05:41
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_cvUvUYjaPHgQUZlott/cvUvUYjaPHgQUZlott_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_cvUvUYjaPHgQUZlott/cvUvUYjaPHgQUZlott_2.in
+#    -datafile EBLOSUMN
+#    -outfile ../../tmp/align_tmp/stretcherp_cvUvUYjaPHgQUZlott/cvUvUYjaPHgQUZlott.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_cvUvUYjaPHgQUZlott/cvUvUYjaPHgQUZlott.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUMN
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 7
+# Identity:       2/7 (28.6%)
+# Similarity:     2/7 (28.6%)
+# Gaps:           2/7 (28.6%)
+# Score: -4
+# 
+#
+#=======================================
+
+             7
+       GAWGHEE
+         :   :
+       --WHEAE
+             5
+
+
+#---------------------------------------
+#---------------------------------------

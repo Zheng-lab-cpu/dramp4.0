@@ -1,0 +1,78 @@
+BLASTP 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= VC15-HHHH-L-VIKG
+
+Length=16
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP19403                                                          22.7    1.8  
+  DRAMP03724                                                          22.7    1.8  
+
+
+> DRAMP19403
+Length=24
+
+ Score = 22.7 bits (47),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 9/13 (70%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  2   FWGALLHGALHVI  14
+           FWGAL  GAL +I
+Sbjct  1   FWGALAKGALKLI  13
+
+
+> DRAMP03724
+Length=24
+
+ Score = 22.7 bits (47),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 9/13 (70%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  2   FWGALLHGALHVI  14
+           FWGAL  GAL +I
+Sbjct  1   FWGALAKGALKLI  13
+
+
+
+Lambda     K      H
+   0.335    0.151    0.599 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 11141696
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

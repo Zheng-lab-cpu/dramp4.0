@@ -1,0 +1,89 @@
+BLASTP 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= 
+Length=38
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP04722                                                          72.8    2e-15
+  DRAMP04719                                                          71.2    7e-15
+  DRAMP13025                                                          32.7    0.003
+
+
+> DRAMP04722
+Length=38
+
+ Score = 72.8 bits (177),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 38/38 (100%), Positives = 38/38 (100%), Gaps = 0/38 (0%)
+
+Query  1   VNPGVVVRISQKGLDYASQQGTAALQXXLKNIKIPDYL  38
+           VNPGVVVRISQKGLDYASQQGTAALQXXLKNIKIPDYL
+Sbjct  1   VNPGVVVRISQKGLDYASQQGTAALQXXLKNIKIPDYL  38
+
+
+> DRAMP04719
+Length=38
+
+ Score = 71.2 bits (173),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 37/38 (98%), Positives = 38/38 (100%), Gaps = 0/38 (0%)
+
+Query  1   VNPGVVVRISQKGLDYASQQGTAALQXXLKNIKIPDYL  38
+           VNPGVVVRISQKGLDYASQQGTAALQXXLK+IKIPDYL
+Sbjct  1   VNPGVVVRISQKGLDYASQQGTAALQXXLKHIKIPDYL  38
+
+
+> DRAMP13025
+Length=15
+
+ Score = 32.7 bits (73),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   VNPGVVVRISQKGLD  15
+           VNPGVVVRISQKGLD
+Sbjct  1   VNPGVVVRISQKGLD  15
+
+
+
+Lambda     K      H
+   0.315    0.135    0.371 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 18314538
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

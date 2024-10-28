@@ -1,0 +1,53 @@
+# ../../cgi-bin/seq-search/bin/fasta36 -Q -s BL62 -b 10 -d 10 -E 20.0 -T 8 ../../tmp/simi_search_tmp/0MVfA3Nn4jPFJQQNdT/0MVfA3Nn4jPFJQQNdT.in ./database/DRAMP.fa
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.6 Sep, 2013(preload9)
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: ../../tmp/simi_search_tmp/0MVfA3Nn4jPFJQQNdT/0MVfA3Nn4jPFJQQNdT.in
+  1>>>Arthrobacter sp.8A12S2 16S ribosomal RNA gene, partial sequence - 15 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.2594+/-0.000427; mu= 8.5330+/- 0.014
+ mean_var=15.5270+/- 5.683, 0's: 4486 Z-trim(121.4): 4486  B-trim: 0 in 0/24
+ Lambda= 0.325484
+ statistics sampled from 21883 (21883) to 21883 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.993), E-opt: 0.2 (0.774), width:  16
+ Scan time:  0.130
+
+The best scores are:                                      opt bits E(28274)
+DRAMP02694                                         (  57)   39 21.0      12
+DRAMP06034                                         (  10)   34 17.9      17
+
+>>DRAMP02694                                              (57 aa)
+ initn:  39 init1:  39 opt:  39  Z-score: 106.1  bits: 21.0 E(28274):   12
+Smith-Waterman score: 39; 62.5% identity (87.5% similar) in 8 aa overlap (1-8:34-41)
+
+                                             10              
+Arthr                                GRRCSRRWPRILFIC         
+                                     :..: :::                
+DRAMP0 PGQKQCIALKGVCRDKLCSTLDDTIGICNEGKKCCRRWWILEPYPTPVPKGKSP
+            10        20        30        40        50       
+
+>>DRAMP06034                                              (10 aa)
+ initn:  34 init1:  34 opt:  34  Z-score: 103.4  bits: 17.9 E(28274):   17
+Smith-Waterman score: 34; 77.8% identity (88.9% similar) in 9 aa overlap (2-10:1-9)
+
+               10     
+Arthr  GRRCSRRWPRILFIC
+        :: :::.::     
+DRAMP0  RRPSRRFPRR    
+                10    
+
+
+
+15 residues in 1 query   sequences
+696332 residues in 28274 library sequences
+ Tcomplib [36.3.6 Sep, 2013(preload9)] (8 proc in memory [0G])
+ start: Thu Oct 27 20:57:00 2022 done: Thu Oct 27 20:57:00 2022
+ Total Scan time:  0.130 Total Display time:  0.010
+
+Function used was FASTA [36.3.6 Sep, 2013(preload9)]

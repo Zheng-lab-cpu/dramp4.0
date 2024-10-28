@@ -1,0 +1,39 @@
+########################################
+# Program: stretcher
+# Rundate: Tue  8 Nov 2022 18:16:28
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_73HxQZULJ2iBJ696Om/73HxQZULJ2iBJ696Om_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_73HxQZULJ2iBJ696Om/73HxQZULJ2iBJ696Om_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/stretcherp_73HxQZULJ2iBJ696Om/73HxQZULJ2iBJ696Om.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_73HxQZULJ2iBJ696Om/73HxQZULJ2iBJ696Om.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 5
+# Identity:       2/5 (40.0%)
+# Similarity:     2/5 (40.0%)
+# Gaps:           1/5 (20.0%)
+# Score: 3
+# 
+#
+#=======================================
+
+           5
+       WATER
+       :  : 
+       WINE-
+          4 
+
+
+#---------------------------------------
+#---------------------------------------

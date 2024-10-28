@@ -1,0 +1,63 @@
+########################################
+# Program: stretcher
+# Rundate: Thu 10 Nov 2022 09:02:04
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_JP1vWSBjGD9cecvrLn/JP1vWSBjGD9cecvrLn_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_JP1vWSBjGD9cecvrLn/JP1vWSBjGD9cecvrLn_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/stretcherp_JP1vWSBjGD9cecvrLn/JP1vWSBjGD9cecvrLn.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_JP1vWSBjGD9cecvrLn/JP1vWSBjGD9cecvrLn.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 229
+# Identity:     197/229 (86.0%)
+# Similarity:   198/229 (86.5%)
+# Gaps:          28/229 (12.2%)
+# Score: 1003
+# 
+#
+#=======================================
+
+                           10        20        30        
+       ------------NITNLCPFDEVFNATRFASVYAWNRKRISNCVADYSVL
+                   :::::::: :::::::::::::::::::::::::::::
+       RVQPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVL
+               10        20        30        40        50
+
+       40        50        60        70        80        
+       YNFAPFFAFKCYGVSPTKLNDLCFTNVYADSFVIRGNEVSQIAPGQTGNI
+       :: :::::::::::::::::::::::::::::::::::::::::::::::
+       YNLAPFFAFKCYGVSPTKLNDLCFTNVYADSFVIRGNEVSQIAPGQTGNI
+               60        70        80        90       100
+
+       90       100       110       120       130        
+       ADYNYKLPDDFTGCVIAWNSNKLDSKVGGNYNYRYRLFRKSNLKPFERDI
+       ::::::::::::::::::::::::::::::::::::::::::::::::::
+       ADYNYKLPDDFTGCVIAWNSNKLDSKVGGNYNYRYRLFRKSNLKPFERDI
+              110       120       130       140       150
+
+      140       150       160       170       180        
+       STEIYQAGNKPCNGVAGVNCYFPLQSYGFRPTYGVGHQPYRVVVLSFELL
+       ::::::::::::::::::::::::.:: ::::::::::::::::::::::
+       STEIYQAGNKPCNGVAGVNCYFPLRSYSFRPTYGVGHQPYRVVVLSFELL
+              160       170       180       190       200
+
+      190       200                 
+       HAPATVCGPKKST----------------
+       :::::::::::::                
+       HAPATVCGPKKSTNLVKNKCVNFHHHHHH
+              210       220         
+
+
+#---------------------------------------
+#---------------------------------------

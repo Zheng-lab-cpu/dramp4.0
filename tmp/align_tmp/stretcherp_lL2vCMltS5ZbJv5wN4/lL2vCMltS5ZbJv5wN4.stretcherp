@@ -1,0 +1,39 @@
+########################################
+# Program: stretcher
+# Rundate: Wed 25 Jan 2023 16:12:39
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_lL2vCMltS5ZbJv5wN4/lL2vCMltS5ZbJv5wN4_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_lL2vCMltS5ZbJv5wN4/lL2vCMltS5ZbJv5wN4_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/stretcherp_lL2vCMltS5ZbJv5wN4/lL2vCMltS5ZbJv5wN4.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_lL2vCMltS5ZbJv5wN4/lL2vCMltS5ZbJv5wN4.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 12
+# Identity:       9/12 (75.0%)
+# Similarity:    10/12 (83.3%)
+# Gaps:           2/12 (16.7%)
+# Score: 31
+# 
+#
+#=======================================
+
+                 10
+       VLEVAFPGS--Q
+       :::::::::  .
+       VLEVAFPGSVSK
+               10  
+
+
+#---------------------------------------
+#---------------------------------------

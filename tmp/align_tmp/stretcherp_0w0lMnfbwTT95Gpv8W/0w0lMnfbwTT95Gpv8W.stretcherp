@@ -1,0 +1,39 @@
+########################################
+# Program: stretcher
+# Rundate: Sat 21 Jan 2023 00:59:54
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_0w0lMnfbwTT95Gpv8W/0w0lMnfbwTT95Gpv8W_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_0w0lMnfbwTT95Gpv8W/0w0lMnfbwTT95Gpv8W_2.in
+#    -datafile EBLOSUM60
+#    -outfile ../../tmp/align_tmp/stretcherp_0w0lMnfbwTT95Gpv8W/0w0lMnfbwTT95Gpv8W.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_0w0lMnfbwTT95Gpv8W/0w0lMnfbwTT95Gpv8W.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM60
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 7
+# Identity:       2/7 (28.6%)
+# Similarity:     2/7 (28.6%)
+# Gaps:           2/7 (28.6%)
+# Score: -2
+# 
+#
+#=======================================
+
+             5
+       --WHEAE
+         :   :
+       GAWGHEE
+             7
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,89 @@
+BLASTP 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= 
+Length=99
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP00184                                                          40.4    1e-05
+  DRAMP03308                                                          23.1    2.0  
+  DRAMP03658                                                          22.3    3.2  
+
+
+> DRAMP00184
+Length=66
+
+ Score = 40.4 bits (93),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 25/55 (46%), Positives = 27/55 (50%), Gaps = 2/55 (3%)
+
+Query  35  GLWDHGVN-SKVYSKYHHASKYHSATACNGGLLNQCAKSVAAKNKWASASLPRNL  88
+           G W HG   S  YS YHH SK HSAT  N     Q  K       WA A++ RNL
+Sbjct  2   GTWQHGYGVSSAYSNYHHGSKTHSATVVNNNTGRQ-GKDTQRAGVWAKATVGRNL  55
+
+
+> DRAMP03308
+Length=55
+
+ Score = 23.1 bits (48),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 14/17 (83%), Gaps = 0/17 (0%)
+
+Query  55  YHSATACNGGLLNQCAK  71
+           + ++ +C+GGLLN CAK
+Sbjct  39  FAASGSCHGGLLNCCAK  55
+
+
+> DRAMP03658
+Length=43
+
+ Score = 22.3 bits (46),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 10/11 (91%), Gaps = 0/11 (0%)
+
+Query  61  CNGGLLNQCAK  71
+           C+GGLLN CAK
+Sbjct  29  CHGGLLNCCAK  39
+
+
+
+Lambda     K      H
+   0.315    0.124    0.384 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 17687236
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

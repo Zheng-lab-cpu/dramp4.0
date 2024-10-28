@@ -1,0 +1,45 @@
+########################################
+# Program: stretcher
+# Rundate: Sat 22 Oct 2022 14:29:53
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_PtoAFzxnzT6bGBeGqu/PtoAFzxnzT6bGBeGqu_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_PtoAFzxnzT6bGBeGqu/PtoAFzxnzT6bGBeGqu_2.in
+#    -datafile EPAM250
+#    -outfile ../../tmp/align_tmp/stretcherp_PtoAFzxnzT6bGBeGqu/PtoAFzxnzT6bGBeGqu.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_PtoAFzxnzT6bGBeGqu/PtoAFzxnzT6bGBeGqu.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EPAM250
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 60
+# Identity:      13/60 (21.7%)
+# Similarity:    34/60 (56.7%)
+# Gaps:           3/60 ( 5.0%)
+# Score: 41
+# 
+#
+#=======================================
+
+                10        20        30          40       
+       N-LFVALYDFVASGDNTLSITKGEKLRVLGYNHNGE--WCEAQTKNGQGW
+       . .. :: :. .  :. :..  :. . ..  ....:  :  :. .. .: 
+       KGVIYALWDYEPQNDDELPMKEGDCMTIIHREDEDEIEWWWARLNDKEGY
+               10        20        30        40        50
+
+        50       
+       VPSNYITPVN
+       :: : .    
+       VPRNLLGLYP
+               60
+
+
+#---------------------------------------
+#---------------------------------------

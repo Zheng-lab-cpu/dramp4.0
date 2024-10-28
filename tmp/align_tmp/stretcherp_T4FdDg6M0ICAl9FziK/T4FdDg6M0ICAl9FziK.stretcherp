@@ -1,0 +1,39 @@
+########################################
+# Program: stretcher
+# Rundate: Mon 31 Oct 2022 21:09:07
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_T4FdDg6M0ICAl9FziK/T4FdDg6M0ICAl9FziK_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_T4FdDg6M0ICAl9FziK/T4FdDg6M0ICAl9FziK_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/stretcherp_T4FdDg6M0ICAl9FziK/T4FdDg6M0ICAl9FziK.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_T4FdDg6M0ICAl9FziK/T4FdDg6M0ICAl9FziK.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 6
+# Identity:       1/6 (16.7%)
+# Similarity:     1/6 (16.7%)
+# Gaps:           1/6 (16.7%)
+# Score: -11
+# 
+#
+#=======================================
+
+            6
+       DARWIN
+         :   
+       -CRICK
+            5
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,15 @@
+>[ddd]^9^^DROP SERVER^^39^^Syntax:
+DROP SERVER [ IF EXISTS ] server_name
+
+Drops the server definition for the server named server_name. The
+corresponding row in the mysql.servers table is deleted. This statement
+requires the SUPER privilege.
+
+Dropping a server for a table does not affect any FEDERATED tables that
+used this connection information when they were created. See [HELP
+CREATE SERVER].
+
+URL: http://dev.mysql.com/doc/refman/5.5/en/drop-server.html
+
+^^^^http://dev.mysql.com/doc/refman/5.5/en/drop-server.html^[ddd]
+2 SERVER^^39^^Syntax:

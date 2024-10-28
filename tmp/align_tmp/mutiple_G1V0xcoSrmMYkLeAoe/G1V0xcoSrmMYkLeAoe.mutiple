@@ -1,0 +1,19 @@
+!!AA_MULTIPLE_ALIGNMENT 1.0
+ squid.msf  MSF: 4  Type: P  October 14, 2024 04:37  Check: 3142  ..
+
+ Name: B  Len:      4  Check:  444  Weight: -1.00
+ Name: A  Len:      4  Check:  448  Weight: -1.00
+ Name: A  Len:      4  Check:  452  Weight: -1.00
+ Name: A  Len:      4  Check:  444  Weight: -1.00
+ Name: A  Len:      4  Check:  452  Weight: -1.00
+ Name: A  Len:      4  Check:  902  Weight: -1.00
+
+//
+
+   1     
+B  ABA
+A  AAC
+A  ACC
+A  ABA
+A  ACC
+A  ABC~

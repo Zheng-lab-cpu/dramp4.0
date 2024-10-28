@@ -1,0 +1,51 @@
+########################################
+# Program: stretcher
+# Rundate: Sat 10 Dec 2022 03:58:43
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_MBV4thQ3fiIDZoYf0C/MBV4thQ3fiIDZoYf0C_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_MBV4thQ3fiIDZoYf0C/MBV4thQ3fiIDZoYf0C_2.in
+#    -datafile EBLOSUM40
+#    -outfile ../../tmp/align_tmp/stretcherp_MBV4thQ3fiIDZoYf0C/MBV4thQ3fiIDZoYf0C.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_MBV4thQ3fiIDZoYf0C/MBV4thQ3fiIDZoYf0C.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM40
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 147
+# Identity:     123/147 (83.7%)
+# Similarity:   134/147 (91.2%)
+# Gaps:           2/147 ( 1.4%)
+# Score: 901
+# 
+#
+#=======================================
+
+                 10        20        30        40        
+       M--LTAEEKAAVTAFWGKVKVDEVGGEALGRLLVVYPWTQRFFESFGDLS
+       :  :: :::.::::.:::: ::::::::::::::::::::::::::::::
+       MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLS
+               10        20        30        40        50
+
+       50        60        70        80        90        
+       TADAVMNNPKVKAHGKKVLDSFSNGMKHLDDLKGTFAALSELHCDKLHVD
+       : :::: :::::::::::: .::.:. :::.:::::: ::::::::::::
+       TPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVD
+               60        70        80        90       100
+
+      100       110       120       130       140     
+       PENFKLLGNVLVVVLARNFGKEFTPVLQADFQKVVAGVANALAHRYH
+       ::::.::::::: ::: .::::::: .:: .:::::::::::::.::
+       PENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+              110       120       130       140       
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,39 @@
+########################################
+# Program: stretcher
+# Rundate: Sat 28 Jan 2023 05:55:52
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_QrKmNjh4wtkfPkJcEr/QrKmNjh4wtkfPkJcEr_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_QrKmNjh4wtkfPkJcEr/QrKmNjh4wtkfPkJcEr_2.in
+#    -datafile EPAM250
+#    -outfile ../../tmp/align_tmp/stretcherp_QrKmNjh4wtkfPkJcEr/QrKmNjh4wtkfPkJcEr.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_QrKmNjh4wtkfPkJcEr/QrKmNjh4wtkfPkJcEr.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EPAM250
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 15
+# Identity:       8/15 (53.3%)
+# Similarity:     9/15 (60.0%)
+# Gaps:           5/15 (33.3%)
+# Score: 14
+# 
+#
+#=======================================
+
+               10     
+       ACDEHIKLMNPQRST
+            ::.:::: ::
+       -----IKIMNPQEST
+                    10
+
+
+#---------------------------------------
+#---------------------------------------

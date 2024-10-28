@@ -1,0 +1,39 @@
+########################################
+# Program: matcher
+# Rundate: Sun 11 Dec 2022 16:15:53
+# Commandline: matcher
+#    -asequence ../../tmp/align_tmp/matcherp_BrMJkcjA71O8Pbf8CH/BrMJkcjA71O8Pbf8CH_1.in
+#    -bsequence ../../tmp/align_tmp/matcherp_BrMJkcjA71O8Pbf8CH/BrMJkcjA71O8Pbf8CH_2.in
+#    -datafile EBLOSUM55
+#    -outfile ../../tmp/align_tmp/matcherp_BrMJkcjA71O8Pbf8CH/BrMJkcjA71O8Pbf8CH.matcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/matcherp_BrMJkcjA71O8Pbf8CH/BrMJkcjA71O8Pbf8CH.matcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM55
+# Gap_penalty: 14
+# Extend_penalty: 4
+#
+# Length: 6
+# Identity:       4/6 (66.7%)
+# Similarity:     4/6 (66.7%)
+# Gaps:           0/6 ( 0.0%)
+# Score: 23
+# 
+#
+#=======================================
+
+         30  
+       FLRNLV
+       ::  ::
+       FLLTLV
+            7
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,78 @@
+BLASTP 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= 1
+
+Length=34
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP02473                                                          25.8    0.28 
+  DRAMP02474                                                          21.6    5.5  
+
+
+> DRAMP02473
+Length=30
+
+ Score = 25.8 bits (55),  Expect = 0.28, Method: Compositional matrix adjust.
+ Identities = 12/17 (71%), Positives = 16/17 (95%), Gaps = 0/17 (0%)
+
+Query  18  FWKKIKNSVKKRAKKFF  34
+           F++K+K SVKKRAK+FF
+Sbjct  2   FFRKLKKSVKKRAKEFF  18
+
+
+> DRAMP02474
+Length=15
+
+ Score = 21.6 bits (44),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 10/14 (72%), Positives = 13/14 (93%), Gaps = 0/14 (0%)
+
+Query  18  FWKKIKNSVKKRAK  31
+           F++K+K SVKKRAK
+Sbjct  2   FFRKLKKSVKKRAK  15
+
+
+
+Lambda     K      H
+   0.319    0.144    0.477 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 17497800
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

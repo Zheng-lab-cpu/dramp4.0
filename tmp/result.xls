@@ -1,0 +1,4 @@
+DRAMP_ID	Peptide_Name	Sequence	Biological_Activity	Pubmed_ID
+DRAMP00005	Epicidin 280 (Bacteriocin; Predicted)	SLGPAIKATRQVCPKATRFVTVSCKKSDCQ	Antimicrobial, Antibacterial, Anti-Gram+	9726851
+DRAMP00017	Microbisporicin A1 (Bacteriocin)	VTSWSLCTPGCTSPGGGSNCSFCC	Antimicrobial, Antibacterial	18215770
+DRAMP00032	Ruminococcin A (RumA; Bacteriocin)	GNGVLKTISHECNMNTWQFLFTCC	Antimicrobial, Antibacterial, Anti-Gram+	11526013##11741840##12089024

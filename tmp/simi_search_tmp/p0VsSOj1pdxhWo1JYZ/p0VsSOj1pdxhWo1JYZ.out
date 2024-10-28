@@ -1,0 +1,209 @@
+BLASTP 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= 
+Length=24
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP18443                                                          48.5    4e-08
+  DRAMP18415                                                          35.8    3e-04
+  DRAMP03690                                                          35.8    3e-04
+  DRAMP19423                                                          23.9    1.2  
+  DRAMP02766                                                          23.9    1.2  
+  DRAMP19403                                                          22.3    3.0  
+  DRAMP03724                                                          22.3    3.0  
+  DRAMP01952                                                          21.9    4.1  
+  DRAMP01867                                                          21.9    4.1  
+  DRAMP01951                                                          21.6    5.9  
+  DRAMP03751                                                          21.6    6.1  
+  DRAMP01648                                                          20.8    9.2  
+  DRAMP19406                                                          20.8    9.9  
+
+
+> DRAMP18443
+Length=24
+
+ Score = 48.5 bits (114),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 24/24 (100%), Positives = 24/24 (100%), Gaps = 0/24 (0%)
+
+Query  1   IWSFLIKAATKLLPSLFGGGKKDS  24
+           IWSFLIKAATKLLPSLFGGGKKDS
+Sbjct  1   IWSFLIKAATKLLPSLFGGGKKDS  24
+
+
+> DRAMP18415
+Length=27
+
+ Score = 35.8 bits (81),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 15/22 (69%), Positives = 19/22 (87%), Gaps = 0/22 (0%)
+
+Query  2   WSFLIKAATKLLPSLFGGGKKD  23
+           WSFL+KAA+K+LPSL GGG  +
+Sbjct  2   WSFLVKAASKILPSLIGGGDDN  23
+
+
+> DRAMP03690
+Length=27
+
+ Score = 35.8 bits (81),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 15/22 (69%), Positives = 19/22 (87%), Gaps = 0/22 (0%)
+
+Query  2   WSFLIKAATKLLPSLFGGGKKD  23
+           WSFL+KAA+K+LPSL GGG  +
+Sbjct  2   WSFLVKAASKILPSLIGGGDDN  23
+
+
+> DRAMP19423
+Length=24
+
+ Score = 23.9 bits (50),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 12/23 (53%), Positives = 14/23 (61%), Gaps = 0/23 (0%)
+
+Query  2   WSFLIKAATKLLPSLFGGGKKDS  24
+           W  LIK A KL+PS+ G  KK  
+Sbjct  2   WGALIKGAAKLIPSVVGLFKKKQ  24
+
+
+> DRAMP02766
+Length=24
+
+ Score = 23.9 bits (50),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 12/23 (53%), Positives = 14/23 (61%), Gaps = 0/23 (0%)
+
+Query  2   WSFLIKAATKLLPSLFGGGKKDS  24
+           W  LIK A KL+PS+ G  KK  
+Sbjct  2   WGALIKGAAKLIPSVVGLFKKKQ  24
+
+
+> DRAMP19403
+Length=24
+
+ Score = 22.3 bits (46),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 13/24 (55%), Positives = 14/24 (59%), Gaps = 1/24 (4%)
+
+Query  1   IWSFLIKAATKLLPSLFGG-GKKD  23
+            W  L K A KL+PSLF    KKD
+Sbjct  1   FWGALAKGALKLIPSLFSSFSKKD  24
+
+
+> DRAMP03724
+Length=24
+
+ Score = 22.3 bits (46),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 13/24 (55%), Positives = 14/24 (59%), Gaps = 1/24 (4%)
+
+Query  1   IWSFLIKAATKLLPSLFGG-GKKD  23
+            W  L K A KL+PSLF    KKD
+Sbjct  1   FWGALAKGALKLIPSLFSSFSKKD  24
+
+
+> DRAMP01952
+Length=24
+
+ Score = 21.9 bits (45),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 10/13 (77%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  5   LIKAATKLLPSLF  17
+           LIKAATK LP+ F
+Sbjct  5   LIKAATKALPAAF  17
+
+
+> DRAMP01867
+Length=67
+
+ Score = 21.9 bits (45),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 9/14 (65%), Positives = 11/14 (79%), Gaps = 0/14 (0%)
+
+Query  4   FLIKAATKLLPSLF  17
+           F++   TKLLPSLF
+Sbjct  47  FVLGVVTKLLPSLF  60
+
+
+> DRAMP01951
+Length=24
+
+ Score = 21.6 bits (44),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 8/13 (62%), Positives = 12/13 (93%), Gaps = 0/13 (0%)
+
+Query  5   LIKAATKLLPSLF  17
+           LIKAATK++P+ +
+Sbjct  5   LIKAATKIVPAAY  17
+
+
+> DRAMP03751
+Length=18
+
+ Score = 21.6 bits (44),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 9/13 (70%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  5   LIKAATKLLPSLF  17
+           L K ATK++PSLF
+Sbjct  5   LFKLATKIIPSLF  17
+
+
+> DRAMP01648
+Length=26
+
+ Score = 20.8 bits (42),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 10/14 (72%), Positives = 10/14 (72%), Gaps = 0/14 (0%)
+
+Query  5   LIKAATKLLPSLFG  18
+           LIK A KLL  LFG
+Sbjct  6   LIKGAGKLLGGLFG  19
+
+
+> DRAMP19406
+Length=63
+
+ Score = 20.8 bits (42),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 9/20 (45%), Positives = 12/20 (60%), Gaps = 0/20 (0%)
+
+Query  5   LIKAATKLLPSLFGGGKKDS  24
+           L K A+K+LPS+F    K  
+Sbjct  44  LFKVASKVLPSVFCAITKKC  63
+
+
+
+Lambda     K      H
+   0.320    0.140    0.431 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 16712544
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

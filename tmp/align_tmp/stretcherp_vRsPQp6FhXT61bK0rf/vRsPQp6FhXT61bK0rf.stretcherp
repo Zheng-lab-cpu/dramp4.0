@@ -1,0 +1,45 @@
+########################################
+# Program: stretcher
+# Rundate: Fri  4 Nov 2022 20:33:34
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_vRsPQp6FhXT61bK0rf/vRsPQp6FhXT61bK0rf_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_vRsPQp6FhXT61bK0rf/vRsPQp6FhXT61bK0rf_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/stretcherp_vRsPQp6FhXT61bK0rf/vRsPQp6FhXT61bK0rf.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_vRsPQp6FhXT61bK0rf/vRsPQp6FhXT61bK0rf.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 76
+# Identity:      53/76 (69.7%)
+# Similarity:    55/76 (72.4%)
+# Gaps:          11/76 (14.5%)
+# Score: 255
+# 
+#
+#=======================================
+
+                   10        20        30        40      
+       HHALQPQVC----QNMGKRPPWWERTQPIFKPEHTTWRQMREWGSQEPKY
+       :::::::::    ::::::::::::            :.  .  ::::::
+       HHALQPQVCAWGTQNMGKRPPWWERRD-------VDEREPCQPISQEPKY
+               10        20               30        40   
+
+         50        60        70  
+       CDHNYGNSVVFVQDKWTQTPVSADLH
+       ::::::::::::::::::: ::::::
+       CDHNYGNSVVFVQDKWTQTTVSADLH
+            50        60         
+
+
+#---------------------------------------
+#---------------------------------------

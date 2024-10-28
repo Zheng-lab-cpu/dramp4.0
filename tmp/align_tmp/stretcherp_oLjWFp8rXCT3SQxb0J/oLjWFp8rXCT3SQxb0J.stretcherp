@@ -1,0 +1,45 @@
+########################################
+# Program: stretcher
+# Rundate: Wed 12 Oct 2022 10:09:55
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_oLjWFp8rXCT3SQxb0J/oLjWFp8rXCT3SQxb0J_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_oLjWFp8rXCT3SQxb0J/oLjWFp8rXCT3SQxb0J_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/stretcherp_oLjWFp8rXCT3SQxb0J/oLjWFp8rXCT3SQxb0J.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_oLjWFp8rXCT3SQxb0J/oLjWFp8rXCT3SQxb0J.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 57
+# Identity:       9/57 (15.8%)
+# Similarity:    15/57 (26.3%)
+# Gaps:          10/57 (17.5%)
+# Score: -42
+# 
+#
+#=======================================
+
+                   10        20             30        40 
+       L----GKYKAACDSLLKWKYVAKRD-----CSIRKNGCYGVWTRQLERHA
+             :   :   . . :  .  :     :.  :  :   :  .     
+       GVIPGQKQCIALKGVCRDKLCSTLDDTIGICNEGKKCCRRWWILEPYPTP
+               10        20        30        40        50
+
+              
+       KCIG-AQ
+          : . 
+       VPKGKSP
+              
+
+
+#---------------------------------------
+#---------------------------------------

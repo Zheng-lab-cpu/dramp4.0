@@ -1,0 +1,269 @@
+BLASTP 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= 
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP09417                                                          23.5    1.8  
+  DRAMP09364                                                          23.1    2.6  
+  DRAMP18862                                                          22.3    3.7  
+  DRAMP04856                                                          22.3    3.7  
+  DRAMP03922                                                          22.3    4.5  
+  DRAMP04357                                                          21.9    4.8  
+  DRAMP04283                                                          21.9    5.5  
+  DRAMP18925                                                          21.9    5.6  
+  DRAMP04824                                                          21.9    5.6  
+  DRAMP18878                                                          21.6    6.3  
+  DRAMP04872                                                          21.6    6.3  
+  DRAMP03921                                                          21.6    6.3  
+  DRAMP18905                                                          21.6    6.4  
+  DRAMP04822                                                          21.6    6.4  
+  DRAMP18035                                                          21.6    7.0  
+  DRAMP09365                                                          21.6    7.0  
+  DRAMP18879                                                          21.2    8.1  
+  DRAMP04873                                                          21.2    8.1  
+
+
+> DRAMP09417
+Length=34
+
+ Score = 23.5 bits (49),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 13/31 (42%), Positives = 17/31 (55%), Gaps = 0/31 (0%)
+
+Query  38  LRALKFKLLKNYHVGSVLTVTGTGGSGKSTL  68
+           L  +K+KL K   +G+VL V  TG     TL
+Sbjct  3   LEHMKWKLFKKIGIGAVLKVLTTGLPALKTL  33
+
+
+> DRAMP09364
+Length=34
+
+ Score = 23.1 bits (48),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 11/24 (46%), Positives = 15/24 (63%), Gaps = 0/24 (0%)
+
+Query  38  LRALKFKLLKNYHVGSVLTVTGTG  61
+           L  +K+KL K   +G+VL V  TG
+Sbjct  3   LEHMKWKLFKKIGIGAVLKVLTTG  26
+
+
+> DRAMP18862
+Length=26
+
+ Score = 22.3 bits (46),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  42  KFKLLKNYHVGSVLTVTGTG  61
+           K+KL K    G+VLTV  TG
+Sbjct  1   KWKLFKKKGTGAVLTVLTTG  20
+
+
+> DRAMP04856
+Length=26
+
+ Score = 22.3 bits (46),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  42  KFKLLKNYHVGSVLTVTGTG  61
+           K+KL K    G+VLTV  TG
+Sbjct  1   KWKLFKKKGTGAVLTVLTTG  20
+
+
+> DRAMP03922
+Length=20
+
+ Score = 22.3 bits (46),  Expect = 4.5, Method: Composition-based stats.
+ Identities = 10/20 (50%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  42  KFKLLKNYHVGSVLTVTGTG  61
+           K+KL K   +G+VL V  TG
+Sbjct  1   KWKLFKKIGIGAVLKVLTTG  20
+
+
+> DRAMP04357
+Length=26
+
+ Score = 21.9 bits (45),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 10/20 (50%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  42  KFKLLKNYHVGSVLTVTGTG  61
+           K+KL K   +G+VL V  TG
+Sbjct  1   KWKLFKKIGIGAVLKVLTTG  20
+
+
+> DRAMP04283
+Length=29
+
+ Score = 21.9 bits (45),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 10/20 (50%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  42  KFKLLKNYHVGSVLTVTGTG  61
+           K+KL K   +G+VL V  TG
+Sbjct  1   KWKLFKKIGIGAVLKVLTTG  20
+
+
+> DRAMP18925
+Length=28
+
+ Score = 21.9 bits (45),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 10/20 (50%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  42  KFKLLKNYHVGSVLTVTGTG  61
+           K+KL K   +G+VL V  TG
+Sbjct  1   KWKLFKKIGIGAVLKVLTTG  20
+
+
+> DRAMP04824
+Length=28
+
+ Score = 21.9 bits (45),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 10/20 (50%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  42  KFKLLKNYHVGSVLTVTGTG  61
+           K+KL K   +G+VL V  TG
+Sbjct  1   KWKLFKKIGIGAVLKVLTTG  20
+
+
+> DRAMP18878
+Length=26
+
+ Score = 21.6 bits (44),  Expect = 6.3, Method: Composition-based stats.
+ Identities = 10/20 (50%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  42  KFKLLKNYHVGSVLTVTGTG  61
+           K+KL K   +G+VL V  TG
+Sbjct  1   KWKLFKKIGIGAVLKVLTTG  20
+
+
+> DRAMP04872
+Length=26
+
+ Score = 21.6 bits (44),  Expect = 6.3, Method: Composition-based stats.
+ Identities = 10/20 (50%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  42  KFKLLKNYHVGSVLTVTGTG  61
+           K+KL K   +G+VL V  TG
+Sbjct  1   KWKLFKKIGIGAVLKVLTTG  20
+
+
+> DRAMP03921
+Length=26
+
+ Score = 21.6 bits (44),  Expect = 6.3, Method: Composition-based stats.
+ Identities = 10/20 (50%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  42  KFKLLKNYHVGSVLTVTGTG  61
+           K+KL K   +G+VL V  TG
+Sbjct  1   KWKLFKKIGIGAVLKVLTTG  20
+
+
+> DRAMP18905
+Length=26
+
+ Score = 21.6 bits (44),  Expect = 6.4, Method: Composition-based stats.
+ Identities = 10/20 (50%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  42  KFKLLKNYHVGSVLTVTGTG  61
+           K+KL K   +G+VL V  TG
+Sbjct  1   KWKLFKKIGIGAVLKVLTTG  20
+
+
+> DRAMP04822
+Length=26
+
+ Score = 21.6 bits (44),  Expect = 6.4, Method: Composition-based stats.
+ Identities = 10/20 (50%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  42  KFKLLKNYHVGSVLTVTGTG  61
+           K+KL K   +G+VL V  TG
+Sbjct  1   KWKLFKKIGIGAVLKVLTTG  20
+
+
+> DRAMP18035
+Length=28
+
+ Score = 21.6 bits (44),  Expect = 7.0, Method: Composition-based stats.
+ Identities = 10/20 (50%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  42  KFKLLKNYHVGSVLTVTGTG  61
+           K+KL K   +G+VL V  TG
+Sbjct  1   KWKLFKKIGIGAVLKVLTTG  20
+
+
+> DRAMP09365
+Length=30
+
+ Score = 21.6 bits (44),  Expect = 7.0, Method: Composition-based stats.
+ Identities = 10/20 (50%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  42  KFKLLKNYHVGSVLTVTGTG  61
+           K+KL K   +G+VL V  TG
+Sbjct  3   KWKLFKKIGIGAVLKVLTTG  22
+
+
+> DRAMP18879
+Length=28
+
+ Score = 21.2 bits (43),  Expect = 8.1, Method: Composition-based stats.
+ Identities = 10/20 (50%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  42  KFKLLKNYHVGSVLTVTGTG  61
+           K+KL K   +G+VL V  TG
+Sbjct  1   KWKLFKKIGIGAVLKVLTTG  20
+
+
+> DRAMP04873
+Length=28
+
+ Score = 21.2 bits (43),  Expect = 8.1, Method: Composition-based stats.
+ Identities = 10/20 (50%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  42  KFKLLKNYHVGSVLTVTGTG  61
+           K+KL K   +G+VL V  TG
+Sbjct  1   KWKLFKKIGIGAVLKVLTTG  20
+
+
+
+Lambda     K      H
+   0.318    0.139    0.400 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 20689500
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

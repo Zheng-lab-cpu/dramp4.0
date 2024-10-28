@@ -1,0 +1,18 @@
+>[ddd]^96^^MAX^^16^^Syntax:
+MAX([DISTINCT] expr)
+
+Returns the maximum value of expr. MAX() may take a string argument; in
+such cases, it returns the maximum string value. See
+http://dev.mysql.com/doc/refman/5.5/en/mysql-indexes.html. The DISTINCT
+keyword can be used to find the maximum of the distinct values of expr,
+however, this produces the same result as omitting DISTINCT.
+
+MAX() returns NULL if there were no matching rows.
+
+URL: http://dev.mysql.com/doc/refman/5.5/en/group-by-functions.html
+
+^^mysql> SELECT student_name, MIN(test_score), MAX(test_score)
+    ->        FROM student
+    ->        GROUP BY student_name;
+^^http://dev.mysql.com/doc/refman/5.5/en/group-by-functions.html^[ddd]
+2

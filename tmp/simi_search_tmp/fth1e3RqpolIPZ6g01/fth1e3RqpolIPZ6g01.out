@@ -1,0 +1,138 @@
+BLASTP 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= Pp3c2_24160
+
+Length=399
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP18660                                                          36.2    2e-04
+  DRAMP18659                                                          36.2    2e-04
+  DRAMP14940                                                          24.6    0.70 
+  DRAMP26660                                                          24.3    0.79 
+  DRAMP15059                                                          21.9    4.3  
+  DRAMP14723                                                          21.2    7.5  
+  DRAMP14724                                                          21.2    7.8  
+
+
+> DRAMP18660
+Length=32
+
+ Score = 36.2 bits (82),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 20/35 (58%), Positives = 25/35 (72%), Gaps = 4/35 (11%)
+
+Query  64  IKVAINGFGRIGRNFVR-CWHGRKDSPLDVVVIND  97
+           +KV INGFGRIGR   R  +HG+K   ++VV IND
+Sbjct  1   VKVGINGFGRIGRLVTRAAFHGKK---VEVVAIND  32
+
+
+> DRAMP18659
+Length=32
+
+ Score = 36.2 bits (82),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 20/35 (58%), Positives = 25/35 (72%), Gaps = 4/35 (11%)
+
+Query  64  IKVAINGFGRIGRNFVR-CWHGRKDSPLDVVVIND  97
+           +KV INGFGRIGR   R  +HG+K   ++VV IND
+Sbjct  1   VKVGINGFGRIGRLVTRAAFHGKK---VEVVAIND  32
+
+
+> DRAMP14940
+Length=89
+
+ Score = 24.6 bits (52),  Expect = 0.70, Method: Composition-based stats.
+ Identities = 10/38 (27%), Positives = 18/38 (48%), Gaps = 0/38 (0%)
+
+Query  297  VPTPNVSVVDLVVQVEKKTFAEEVNQAFRDACATEELK  334
+            +  PN  +   ++Q EK+ F  +  +A R      E+K
+Sbjct  10   IALPNSEISQAIIQTEKELFQLQFKKATRQPFKPHEIK  47
+
+
+> DRAMP26660
+Length=20
+
+ Score = 24.3 bits (51),  Expect = 0.79, Method: Composition-based stats.
+ Identities = 10/17 (59%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  202  DYKHSDSIISNASCTTN  218
+            DYKHS S IS  +CT +
+Sbjct  4    DYKHSSSSISRMTCTLD  20
+
+
+> DRAMP15059
+Length=80
+
+ Score = 21.9 bits (45),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 14/37 (38%), Positives = 19/37 (52%), Gaps = 4/37 (10%)
+
+Query  244  YTGDQRLLDASHRDLRRARAAALNIVPTSTGAAKAVA  280
+            YTG Q++LD+  R  R  +      V    GA KAV+
+Sbjct  45   YTGKQKILDSGGRVARFEKRYGKRKV----GADKAVS  77
+
+
+> DRAMP14723
+Length=65
+
+ Score = 21.2 bits (43),  Expect = 7.5, Method: Composition-based stats.
+ Identities = 14/37 (38%), Positives = 20/37 (55%), Gaps = 2/37 (5%)
+
+Query  156  LVIEGTGVFVDEAGAGKHIQAGAKKVL--ITAPGKGA  190
+            L++ GT    +  G GK I+ G K +   +TA G GA
+Sbjct  16   LIMGGTSAAPEPKGIGKIIRKGGKVIKHGLTAIGVGA  52
+
+
+> DRAMP14724
+Length=65
+
+ Score = 21.2 bits (43),  Expect = 7.8, Method: Composition-based stats.
+ Identities = 14/37 (38%), Positives = 20/37 (55%), Gaps = 2/37 (5%)
+
+Query  156  LVIEGTGVFVDEAGAGKHIQAGAKKVL--ITAPGKGA  190
+            L++ GT    +  G GK I+ G K +   +TA G GA
+Sbjct  16   LIMGGTSAAPEPKGIGKIIRKGGKVIKHGLTAIGVGA  52
+
+
+
+Lambda     K      H
+   0.317    0.132    0.383 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 17316304
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

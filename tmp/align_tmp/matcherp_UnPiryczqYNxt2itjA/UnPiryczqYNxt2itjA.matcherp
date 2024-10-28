@@ -1,0 +1,51 @@
+########################################
+# Program: matcher
+# Rundate: Wed  1 Feb 2023 11:58:18
+# Commandline: matcher
+#    -asequence ../../tmp/align_tmp/matcherp_UnPiryczqYNxt2itjA/UnPiryczqYNxt2itjA_1.in
+#    -bsequence ../../tmp/align_tmp/matcherp_UnPiryczqYNxt2itjA/UnPiryczqYNxt2itjA_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/matcherp_UnPiryczqYNxt2itjA/UnPiryczqYNxt2itjA.matcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/matcherp_UnPiryczqYNxt2itjA/UnPiryczqYNxt2itjA.matcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 14
+# Extend_penalty: 4
+#
+# Length: 110
+# Identity:      63/110 (57.3%)
+# Similarity:    73/110 (66.4%)
+# Gaps:           4/110 ( 3.6%)
+# Score: 282
+# 
+#
+#=======================================
+
+               10        20        30        40        50
+       MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFY
+       :::::. :::. .:    :.   :  ::::::::::::::::::.:::::
+       MALWMQCLPLVLVLLFSTPN-TEALANQHLCGSHLVEALYLVCGDRGFFY
+        10        20         30        40        50      
+
+               60        70        80        90       100
+       TPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSIC
+        :: .:. :   :   .     :   :::   :    ::::::::: : :
+       YPKIKRDIEQAMVNGPQDNELDGM-QLQPQ--EYQKMKRGIVEQCCHSTC
+         60        70        80           90       100   
+
+              110
+       SLYQLENYCN
+       ::.:::.:::
+       SLFQLESYCN
+           110   
+
+
+#---------------------------------------
+#---------------------------------------

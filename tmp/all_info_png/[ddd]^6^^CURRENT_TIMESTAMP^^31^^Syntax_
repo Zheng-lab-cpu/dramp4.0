@@ -1,0 +1,9 @@
+>[ddd]^6^^CURRENT_TIMESTAMP^^31^^Syntax:
+CURRENT_TIMESTAMP, CURRENT_TIMESTAMP()
+
+CURRENT_TIMESTAMP and CURRENT_TIMESTAMP() are synonyms for NOW().
+
+URL: http://dev.mysql.com/doc/refman/5.5/en/date-and-time-functions.html
+
+^^^^http://dev.mysql.com/doc/refman/5.5/en/date-and-time-functions.html^[ddd]
+2

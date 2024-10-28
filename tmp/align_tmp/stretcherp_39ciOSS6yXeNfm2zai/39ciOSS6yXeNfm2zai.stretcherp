@@ -1,0 +1,39 @@
+########################################
+# Program: stretcher
+# Rundate: Wed  1 Feb 2023 19:21:37
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_39ciOSS6yXeNfm2zai/39ciOSS6yXeNfm2zai_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_39ciOSS6yXeNfm2zai/39ciOSS6yXeNfm2zai_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/stretcherp_39ciOSS6yXeNfm2zai/39ciOSS6yXeNfm2zai.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_39ciOSS6yXeNfm2zai/39ciOSS6yXeNfm2zai.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 10
+# Identity:       7/10 (70.0%)
+# Similarity:     7/10 (70.0%)
+# Gaps:           1/10 (10.0%)
+# Score: 20
+# 
+#
+#=======================================
+
+               10
+       MTPARGSALS
+       ::: : : ::
+       MTPVRRS-LS
+                9
+
+
+#---------------------------------------
+#---------------------------------------

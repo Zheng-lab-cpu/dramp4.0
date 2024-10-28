@@ -1,0 +1,89 @@
+BLASTP 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= 
+Length=99
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP18212                                                          25.8    0.32 
+  DRAMP00170                                                          24.6    0.64 
+  DRAMP17845                                                          24.3    0.91 
+
+
+> DRAMP18212
+Length=64
+
+ Score = 25.8 bits (55),  Expect = 0.32, Method: Compositional matrix adjust.
+ Identities = 18/47 (39%), Positives = 30/47 (64%), Gaps = 5/47 (10%)
+
+Query  58  ILNAAGTVGAIAAVLGTF-GLGAIASLVFSYAK----KYGIRYAIAY  99
+           I++AA T+ +I +++G   G GAI+  + + AK    KYG +YA A+
+Sbjct  18  IIDAASTIASIISLIGIVTGAGAISYAIVATAKTMIKKYGKKYAAAW  64
+
+
+> DRAMP00170
+Length=60
+
+ Score = 24.6 bits (52),  Expect = 0.64, Method: Compositional matrix adjust.
+ Identities = 17/46 (37%), Positives = 28/46 (61%), Gaps = 2/46 (4%)
+
+Query  54  SISAILNAAGTVGAIAAVLG--TFGLGAIASLVFSYAKKYGIRYAI  97
+            + +++NA  TVG+I ++LG  T GL  + + V +   K GI+ AI
+Sbjct  13  KVVSLINAGLTVGSIISILGGVTVGLSGVFTAVKAAIAKQGIKKAI  58
+
+
+> DRAMP17845
+Length=64
+
+ Score = 24.3 bits (51),  Expect = 0.91, Method: Compositional matrix adjust.
+ Identities = 13/29 (45%), Positives = 15/29 (52%), Gaps = 0/29 (0%)
+
+Query  68  IAAVLGTFGLGAIASLVFSYAKKYGIRYA  96
+           IA   G     AI   V   AK++GIRYA
+Sbjct  13  IADNSGRNQYKAIVDYVADSAKQFGIRYA  41
+
+
+
+Lambda     K      H
+   0.325    0.136    0.389 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 17687236
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

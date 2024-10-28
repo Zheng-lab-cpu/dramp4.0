@@ -1,0 +1,126 @@
+BLASTP 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= fig|93061.282.peg.26
+
+Length=53
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP17863                                                           105    4e-25
+  DRAMP17795                                                          99.4    2e-23
+  DRAMP17894                                                          99.0    3e-23
+  DRAMP17928                                                          97.8    6e-23
+  DRAMP12503                                                          25.4    0.44 
+  DRAMP12046                                                          23.5    1.4  
+
+
+> DRAMP17863
+Length=53
+
+ Score =  105 bits (261),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 53/53 (100%), Positives = 53/53 (100%), Gaps = 0/53 (0%)
+
+Query  1   MSNIYKSYLLAVLCFTVLAIVLMPLLYFTTAWSIAGFASIATFIFYKEYFYEE  53
+           MSNIYKSYLLAVLCFTVLAIVLMPLLYFTTAWSIAGFASIATFIFYKEYFYEE
+Sbjct  1   MSNIYKSYLLAVLCFTVLAIVLMPLLYFTTAWSIAGFASIATFIFYKEYFYEE  53
+
+
+> DRAMP17795
+Length=53
+
+ Score = 99.4 bits (246),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 49/53 (93%), Positives = 52/53 (99%), Gaps = 0/53 (0%)
+
+Query  1   MSNIYKSYLLAVLCFTVLAIVLMPLLYFTTAWSIAGFASIATFIFYKEYFYEE  53
+           MS+ YKSYL+AVLCFTVLAIVLMPLLYFTTAWSIAGFASIATFI+YKEYFYEE
+Sbjct  1   MSDTYKSYLIAVLCFTVLAIVLMPLLYFTTAWSIAGFASIATFIYYKEYFYEE  53
+
+
+> DRAMP17894
+Length=53
+
+ Score = 99.0 bits (245),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 50/53 (95%), Positives = 50/53 (95%), Gaps = 0/53 (0%)
+
+Query  1   MSNIYKSYLLAVLCFTVLAIVLMPLLYFTTAWSIAGFASIATFIFYKEYFYEE  53
+           MS  YKSYLLAVLCFTVLAIVLMP LYFTTAWSIAGFASIATFIFYKEYFYEE
+Sbjct  1   MSKTYKSYLLAVLCFTVLAIVLMPFLYFTTAWSIAGFASIATFIFYKEYFYEE  53
+
+
+> DRAMP17928
+Length=53
+
+ Score = 97.8 bits (242),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 49/53 (93%), Positives = 50/53 (95%), Gaps = 0/53 (0%)
+
+Query  1   MSNIYKSYLLAVLCFTVLAIVLMPLLYFTTAWSIAGFASIATFIFYKEYFYEE  53
+           MS  YKSYL+AVLCFTVLAIVLMP LYFTTAWSIAGFASIATFIFYKEYFYEE
+Sbjct  1   MSKTYKSYLVAVLCFTVLAIVLMPFLYFTTAWSIAGFASIATFIFYKEYFYEE  53
+
+
+> DRAMP12503
+Length=47
+
+ Score = 25.4 bits (54),  Expect = 0.44, Method: Compositional matrix adjust.
+ Identities = 11/42 (27%), Positives = 20/42 (48%), Gaps = 1/42 (2%)
+
+Query  12  VLCFTVLAIVLMPLLYFTTAWSIAGFASIATFIFYKEYFYEE  53
+           V C      + +  L  + A  + G + +  F+FY+E F E+
+Sbjct  4   VNCLDDADCLEVSCLNGSNAECV-GNSCVCVFVFYRENFDEQ  44
+
+
+> DRAMP12046
+Length=71
+
+ Score = 23.5 bits (49),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 7/18 (39%), Positives = 12/18 (67%), Gaps = 0/18 (0%)
+
+Query  36  GFASIATFIFYKEYFYEE  53
+           G + +  F+FY+E F E+
+Sbjct  51  GNSCVCVFVFYRENFDEQ  68
+
+
+
+Lambda     K      H
+   0.335    0.143    0.441 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 17785488
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

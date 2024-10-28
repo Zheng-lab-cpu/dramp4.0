@@ -1,0 +1,90 @@
+BLASTP 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= Pp3c23_20200
+
+Length=350
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP18660                                                          40.8    1e-05
+  DRAMP18659                                                          40.8    1e-05
+  DRAMP00666                                                          21.6    7.4  
+
+
+> DRAMP18660
+Length=32
+
+ Score = 40.8 bits (94),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  14  IRIGVNGFGRFGRLVARVILERDDIDLIAVND  45
+           +++G+NGFGR GRLV R       ++++A+ND
+Sbjct  1   VKVGINGFGRIGRLVTRAAFHGKKVEVVAIND  32
+
+
+> DRAMP18659
+Length=32
+
+ Score = 40.8 bits (94),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  14  IRIGVNGFGRFGRLVARVILERDDIDLIAVND  45
+           +++G+NGFGR GRLV R       ++++A+ND
+Sbjct  1   VKVGINGFGRIGRLVTRAAFHGKKVEVVAIND  32
+
+
+> DRAMP00666
+Length=74
+
+ Score = 21.6 bits (44),  Expect = 7.4, Method: Composition-based stats.
+ Identities = 7/24 (30%), Positives = 13/24 (55%), Gaps = 0/24 (0%)
+
+Query  76  EQTLSFDGKKVTVLSYKELHEIPW  99
+           EQ   +DG K  +  + ++ E P+
+Sbjct  26  EQNCGWDGNKTCIRGFNKIKEYPF  49
+
+
+
+Lambda     K      H
+   0.320    0.136    0.405 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 24379584
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

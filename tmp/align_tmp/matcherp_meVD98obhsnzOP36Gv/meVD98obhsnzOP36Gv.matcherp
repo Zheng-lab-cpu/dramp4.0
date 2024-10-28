@@ -1,0 +1,39 @@
+########################################
+# Program: matcher
+# Rundate: Tue  4 Oct 2022 13:03:10
+# Commandline: matcher
+#    -asequence ../../tmp/align_tmp/matcherp_meVD98obhsnzOP36Gv/meVD98obhsnzOP36Gv_1.in
+#    -bsequence ../../tmp/align_tmp/matcherp_meVD98obhsnzOP36Gv/meVD98obhsnzOP36Gv_2.in
+#    -datafile EBLOSUM62-12
+#    -outfile ../../tmp/align_tmp/matcherp_meVD98obhsnzOP36Gv/meVD98obhsnzOP36Gv.matcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/matcherp_meVD98obhsnzOP36Gv/meVD98obhsnzOP36Gv.matcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62-12
+# Gap_penalty: 14
+# Extend_penalty: 4
+#
+# Length: 36
+# Identity:      10/36 (27.8%)
+# Similarity:    17/36 (47.2%)
+# Gaps:           0/36 ( 0.0%)
+# Score: 43
+# 
+#
+#=======================================
+
+          120       130       140       150
+       EAYLVGLFEDTNLCAIHAKRVTIMPKDIQLARRIRG
+       . .:  .  :      :::: :.   :.  : . .:
+       KVFLENVIRDAVTYTEHAKRKTVTAMDVVYALKRQG
+      60        70        80        90     
+
+
+#---------------------------------------
+#---------------------------------------

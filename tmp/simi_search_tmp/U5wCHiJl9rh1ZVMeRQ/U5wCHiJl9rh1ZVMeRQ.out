@@ -1,0 +1,341 @@
+BLASTP 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= 
+Length=44
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP00993                                                          67.0    1e-13
+  DRAMP00991                                                          66.2    2e-13
+  DRAMP00989                                                          63.9    1e-12
+  DRAMP00988                                                          54.3    9e-10
+  DRAMP00987                                                          52.8    3e-09
+  DRAMP00982                                                          49.3    3e-08
+  DRAMP00983                                                          48.9    3e-08
+  DRAMP00985                                                          46.6    2e-07
+  DRAMP00986                                                          46.2    2e-07
+  DRAMP01021                                                          42.4    4e-06
+  DRAMP00318                                                          40.8    9e-06
+  DRAMP00980                                                          36.2    2e-04
+  DRAMP00981                                                          36.2    2e-04
+  DRAMP00977                                                          29.6    0.020
+  DRAMP00979                                                          29.6    0.020
+  DRAMP11857                                                          29.6    0.021
+  DRAMP00976                                                          29.6    0.021
+  DRAMP00984                                                          29.6    0.023
+  DRAMP00978                                                          27.3    0.11 
+  DRAMP13298                                                          26.9    0.15 
+  DRAMP13294                                                          26.2    0.26 
+  DRAMP00381                                                          26.2    0.26 
+  DRAMP01022                                                          25.4    0.41 
+  DRAMP01023                                                          25.4    0.41 
+
+
+> DRAMP00993
+Length=40
+
+ Score = 67.0 bits (162),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 32/38 (85%), Positives = 34/38 (90%), Gaps = 0/38 (0%)
+
+Query  7   QGGGRTCPGNICCSQYGYCGTTADYCSPTNNCQSNCWG  44
+           Q GG+TCPG ICCSQ+GYCGTTADYCSP NNCQSNCW 
+Sbjct  1   QAGGQTCPGGICCSQWGYCGTTADYCSPNNNCQSNCWA  38
+
+
+> DRAMP00991
+Length=45
+
+ Score = 66.2 bits (160),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 30/43 (70%), Positives = 37/43 (87%), Gaps = 0/43 (0%)
+
+Query  2   QQCGRQGGGRTCPGNICCSQYGYCGTTADYCSPTNNCQSNCWG  44
+           +QCGRQ GG+ CP N+CCSQYG+CG++ DYCSP+ NCQSNC G
+Sbjct  1   EQCGRQAGGKLCPNNLCCSQYGWCGSSDDYCSPSKNCQSNCKG  43
+
+
+> DRAMP00989
+Length=43
+
+ Score = 63.9 bits (154),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 28/41 (69%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  2   QQCGRQGGGRTCPGNICCSQYGYCGTTADYCSPTNNCQSNC  42
+           +QCGRQ GG+ CP N+CCSQ+G+CG+T +YCSP +NCQSNC
+Sbjct  1   EQCGRQAGGKLCPNNLCCSQWGWCGSTDEYCSPDHNCQSNC  41
+
+
+> DRAMP00988
+Length=45
+
+ Score = 54.3 bits (129),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 27/41 (66%), Positives = 30/41 (74%), Gaps = 0/41 (0%)
+
+Query  2   QQCGRQGGGRTCPGNICCSQYGYCGTTADYCSPTNNCQSNC  42
+           QQCGRQ G R CP N+CCSQ+GYCG T +YC     CQSNC
+Sbjct  1   QQCGRQAGNRRCPNNLCCSQFGYCGRTNEYCCTGFGCQSNC  41
+
+
+> DRAMP00987
+Length=45
+
+ Score = 52.8 bits (125),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 26/41 (64%), Positives = 29/41 (71%), Gaps = 0/41 (0%)
+
+Query  2   QQCGRQGGGRTCPGNICCSQYGYCGTTADYCSPTNNCQSNC  42
+           QQCGRQ G R C  N+CCSQYGYCG T +YC  +  CQS C
+Sbjct  1   QQCGRQAGNRRCANNLCCSQYGYCGRTNEYCCTSQGCQSQC  41
+
+
+> DRAMP00982
+Length=40
+
+ Score = 49.3 bits (116),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 26/40 (65%), Positives = 30/40 (75%), Gaps = 2/40 (5%)
+
+Query  3   QCGRQGGGRTCPGNICCSQYGYCGTTADYCSPTNNCQSNC  42
+           QCG QGGG TCPG +CCSQ+G+CG+T  YC     CQSNC
+Sbjct  2   QCGAQGGGATCPGGLCCSQWGWCGSTPKYCGA--GCQSNC  39
+
+
+> DRAMP00983
+Length=40
+
+ Score = 48.9 bits (115),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 26/40 (65%), Positives = 30/40 (75%), Gaps = 2/40 (5%)
+
+Query  3   QCGRQGGGRTCPGNICCSQYGYCGTTADYCSPTNNCQSNC  42
+           QCG QGGG TCPG +CCSQ+G+CG+T  YC     CQSNC
+Sbjct  2   QCGAQGGGATCPGGLCCSQWGWCGSTPKYCGA--GCQSNC  39
+
+
+> DRAMP00985
+Length=41
+
+ Score = 46.6 bits (109),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 25/41 (61%), Positives = 28/41 (69%), Gaps = 2/41 (4%)
+
+Query  2   QQCGRQGGGRTCPGNICCSQYGYCGTTADYCSPTNNCQSNC  42
+           QQCGRQ  GR C   +CCSQ+GYCG+TA YC     CQS C
+Sbjct  1   QQCGRQASGRLCGNRLCCSQWGYCGSTASYCGA--GCQSQC  39
+
+
+> DRAMP00986
+Length=40
+
+ Score = 46.2 bits (108),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 25/41 (61%), Positives = 28/41 (69%), Gaps = 2/41 (4%)
+
+Query  2   QQCGRQGGGRTCPGNICCSQYGYCGTTADYCSPTNNCQSNC  42
+           QQCGRQ  GR C   +CCSQ+GYCG+TA YC     CQS C
+Sbjct  1   QQCGRQASGRLCGNRLCCSQWGYCGSTASYCGA--GCQSQC  39
+
+
+> DRAMP01021
+Length=43
+
+ Score = 42.4 bits (98),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 23/43 (54%), Positives = 28/43 (66%), Gaps = 2/43 (4%)
+
+Query  2   QQCGRQGGGRTCPGNICCSQYGYCGTTADYCSPTNNCQSNCWG  44
+           Q+CG QG G  CP  +CC +YG+CG+T DYC     CQS C G
+Sbjct  2   QKCGEQGRGAKCPNCLCCGRYGFCGSTPDYCGV--GCQSQCRG  42
+
+
+> DRAMP00318
+Length=23
+
+ Score = 40.8 bits (94),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 18/23 (79%), Positives = 20/23 (87%), Gaps = 0/23 (0%)
+
+Query  2   QQCGRQGGGRTCPGNICCSQYGY  24
+           +QCGRQ GG TCP N+CCSQYGY
+Sbjct  1   EQCGRQAGGATCPNNLCCSQYGY  23
+
+
+> DRAMP00980
+Length=44
+
+ Score = 36.2 bits (82),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 20/43 (47%), Positives = 26/43 (61%), Gaps = 1/43 (2%)
+
+Query  2   QQCGRQGGGRTCPGNICCSQYGYCGTTADYCSPTNNCQSNCWG  44
+           Q+CG Q  G  CP  +CC +YG+CG+   YC    +CQS C G
+Sbjct  2   QRCGDQARGAKCPNCLCCGKYGFCGSGDAYCG-AGSCQSQCRG  43
+
+
+> DRAMP00981
+Length=45
+
+ Score = 36.2 bits (82),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 20/43 (47%), Positives = 26/43 (61%), Gaps = 1/43 (2%)
+
+Query  2   QQCGRQGGGRTCPGNICCSQYGYCGTTADYCSPTNNCQSNCWG  44
+           Q+CG Q  G  CP  +CC +YG+CG+   YC    +CQS C G
+Sbjct  2   QRCGDQARGAKCPNCLCCGKYGFCGSGDAYCG-AGSCQSQCRG  43
+
+
+> DRAMP00977
+Length=30
+
+ Score = 29.6 bits (65),  Expect = 0.020, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 14/20 (70%), Gaps = 0/20 (0%)
+
+Query  13  CPGNICCSQYGYCGTTADYC  32
+           CP  +CCSQ+GYCG    YC
+Sbjct  9   CPSGMCCSQFGYCGKGPKYC  28
+
+
+> DRAMP00979
+Length=41
+
+ Score = 29.6 bits (65),  Expect = 0.020, Method: Compositional matrix adjust.
+ Identities = 17/34 (50%), Positives = 20/34 (59%), Gaps = 1/34 (2%)
+
+Query  11  RTCPGNICCSQYGYCGTTADYCSPTNNCQSNCWG  44
+           R C   +CCS YGYCG+ A YC    NC+  C G
+Sbjct  9   RPCNAGLCCSIYGYCGSGAAYCG-AGNCRCQCRG  41
+
+
+> DRAMP11857
+Length=29
+
+ Score = 29.6 bits (65),  Expect = 0.021, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 14/20 (70%), Gaps = 0/20 (0%)
+
+Query  13  CPGNICCSQYGYCGTTADYC  32
+           CP  +CCSQ+GYCG    YC
+Sbjct  9   CPSGMCCSQFGYCGKGPKYC  28
+
+
+> DRAMP00976
+Length=29
+
+ Score = 29.6 bits (65),  Expect = 0.021, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 14/20 (70%), Gaps = 0/20 (0%)
+
+Query  13  CPGNICCSQYGYCGTTADYC  32
+           CP  +CCSQ+GYCG    YC
+Sbjct  9   CPSGMCCSQFGYCGKGPKYC  28
+
+
+> DRAMP00984
+Length=30
+
+ Score = 29.6 bits (65),  Expect = 0.023, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 14/20 (70%), Gaps = 0/20 (0%)
+
+Query  13  CPGNICCSQYGYCGTTADYC  32
+           CP  +CCSQ+GYCG    YC
+Sbjct  9   CPSGMCCSQFGYCGRGPKYC  28
+
+
+> DRAMP00978
+Length=41
+
+ Score = 27.3 bits (59),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 16/34 (48%), Positives = 19/34 (56%), Gaps = 1/34 (2%)
+
+Query  11  RTCPGNICCSQYGYCGTTADYCSPTNNCQSNCWG  44
+           R C   +CCS YGYCG+   YC    NC+  C G
+Sbjct  9   RPCNAGLCCSIYGYCGSGNAYCG-AGNCRCQCRG  41
+
+
+> DRAMP13298
+Length=76
+
+ Score = 26.9 bits (58),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  13  CPGNICCSQYGYCGTTADYC  32
+           CP   CCS++GYCG    YC
+Sbjct  31  CPPGYCCSKFGYCGVGRAYC  50
+
+
+> DRAMP13294
+Length=30
+
+ Score = 26.2 bits (56),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  13  CPGNICCSQYGYCGTTADYC  32
+           CP   CCS++GYCG    YC
+Sbjct  10  CPPGYCCSKFGYCGVGRAYC  29
+
+
+> DRAMP00381
+Length=30
+
+ Score = 26.2 bits (56),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  13  CPGNICCSQYGYCGTTADYC  32
+           CP   CCS++GYCG    YC
+Sbjct  10  CPPGYCCSKFGYCGGVRAYC  29
+
+
+> DRAMP01022
+Length=44
+
+ Score = 25.4 bits (54),  Expect = 0.41, Method: Compositional matrix adjust.
+ Identities = 11/21 (53%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  12  TCPGNICCSQYGYCGTTADYC  32
+           T P   CCS+YG+CG+   YC
+Sbjct  23  TIPDYPCCSKYGFCGSGPQYC  43
+
+
+> DRAMP01023
+Length=44
+
+ Score = 25.4 bits (54),  Expect = 0.41, Method: Compositional matrix adjust.
+ Identities = 11/21 (53%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  12  TCPGNICCSQYGYCGTTADYC  32
+           T P   CCS+YG+CG+   YC
+Sbjct  23  TIPDYPCCSKYGFCGSGPQYC  43
+
+
+
+Lambda     K      H
+   0.320    0.139    0.543 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 18442206
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

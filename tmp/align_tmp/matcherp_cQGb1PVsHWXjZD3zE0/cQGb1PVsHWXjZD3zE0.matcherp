@@ -1,0 +1,39 @@
+########################################
+# Program: matcher
+# Rundate: Fri 28 Oct 2022 11:12:17
+# Commandline: matcher
+#    -asequence ../../tmp/align_tmp/matcherp_cQGb1PVsHWXjZD3zE0/cQGb1PVsHWXjZD3zE0_1.in
+#    -bsequence ../../tmp/align_tmp/matcherp_cQGb1PVsHWXjZD3zE0/cQGb1PVsHWXjZD3zE0_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/matcherp_cQGb1PVsHWXjZD3zE0/cQGb1PVsHWXjZD3zE0.matcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/matcherp_cQGb1PVsHWXjZD3zE0/cQGb1PVsHWXjZD3zE0.matcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 14
+# Extend_penalty: 4
+#
+# Length: 5
+# Identity:       4/5 (80.0%)
+# Similarity:     4/5 (80.0%)
+# Gaps:           0/5 ( 0.0%)
+# Score: 22
+# 
+#
+#=======================================
+
+          15
+       YEKGV
+       : :::
+       YRKGV
+       10   
+
+
+#---------------------------------------
+#---------------------------------------

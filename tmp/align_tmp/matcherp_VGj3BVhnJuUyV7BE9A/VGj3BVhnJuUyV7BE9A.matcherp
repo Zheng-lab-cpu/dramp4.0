@@ -1,0 +1,39 @@
+########################################
+# Program: matcher
+# Rundate: Sun 11 Dec 2022 16:42:30
+# Commandline: matcher
+#    -asequence ../../tmp/align_tmp/matcherp_VGj3BVhnJuUyV7BE9A/VGj3BVhnJuUyV7BE9A_1.in
+#    -bsequence ../../tmp/align_tmp/matcherp_VGj3BVhnJuUyV7BE9A/VGj3BVhnJuUyV7BE9A_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/matcherp_VGj3BVhnJuUyV7BE9A/VGj3BVhnJuUyV7BE9A.matcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/matcherp_VGj3BVhnJuUyV7BE9A/VGj3BVhnJuUyV7BE9A.matcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 14
+# Extend_penalty: 4
+#
+# Length: 15
+# Identity:       6/15 (40.0%)
+# Similarity:     9/15 (60.0%)
+# Gaps:           1/15 ( 6.7%)
+# Score: 20
+# 
+#
+#=======================================
+
+               20     
+       KIG-KEFKRIVQRIK
+       ::: :   :..  .:
+       KIGIKAVPRVISMLK
+        10        20  
+
+
+#---------------------------------------
+#---------------------------------------

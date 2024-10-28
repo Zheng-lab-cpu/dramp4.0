@@ -1,0 +1,14 @@
+>[ddd]^7^^SHOW CONTRIBUTORS^^26^^Syntax:
+SHOW CONTRIBUTORS
+
+The SHOW CONTRIBUTORS statement displays information about the people
+who contribute to MySQL source or to causes that we support. For each
+contributor, it displays Name, Location, and Comment values.
+
+This statement is deprecated as of MySQL 5.5.29 and is removed in MySQL
+5.6.
+
+URL: http://dev.mysql.com/doc/refman/5.5/en/show-contributors.html
+
+^^^^http://dev.mysql.com/doc/refman/5.5/en/show-contributors.html^[ddd]
+2 CONTRIBUTORS^^26^^Syntax:

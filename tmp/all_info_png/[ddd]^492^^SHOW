@@ -1,0 +1,29 @@
+>[ddd]^492^^SHOW COLLATION^^26^^Syntax:
+SHOW COLLATION
+    [LIKE pattern | WHERE expr]
+
+This statement lists collations supported by the server. By default,
+the output from SHOW COLLATION includes all available collations. The
+LIKE clause, if present, indicates which collation names to match. The
+WHERE clause can be given to select rows using more general conditions,
+as discussed in
+http://dev.mysql.com/doc/refman/5.5/en/extended-show.html. For example:
+
+mysql> SHOW COLLATION LIKE latin1%;
++-------------------+---------+----+---------+----------+---------+
+| Collation         | Charset | Id | Default | Compiled | Sortlen |
++-------------------+---------+----+---------+----------+---------+
+| latin1_german1_ci | latin1  |  5 |         |          |       0 |
+| latin1_swedish_ci | latin1  |  8 | Yes     | Yes      |       0 |
+| latin1_danish_ci  | latin1  | 15 |         |          |       0 |
+| latin1_german2_ci | latin1  | 31 |         | Yes      |       2 |
+| latin1_bin        | latin1  | 47 |         | Yes      |       0 |
+| latin1_general_ci | latin1  | 48 |         |          |       0 |
+| latin1_general_cs | latin1  | 49 |         |          |       0 |
+| latin1_spanish_ci | latin1  | 94 |         |          |       0 |
++-------------------+---------+----+---------+----------+---------+
+
+URL: http://dev.mysql.com/doc/refman/5.5/en/show-collation.html
+
+^^^^http://dev.mysql.com/doc/refman/5.5/en/show-collation.html^[ddd]
+2 COLLATION^^26^^Syntax:

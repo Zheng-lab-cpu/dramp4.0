@@ -1,0 +1,87 @@
+########################################
+# Program: stretcher
+# Rundate: Fri 30 Sep 2022 23:14:17
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_9eSvbD4ZXnbCt2qbHv/9eSvbD4ZXnbCt2qbHv_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_9eSvbD4ZXnbCt2qbHv/9eSvbD4ZXnbCt2qbHv_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/stretcherp_9eSvbD4ZXnbCt2qbHv/9eSvbD4ZXnbCt2qbHv.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_9eSvbD4ZXnbCt2qbHv/9eSvbD4ZXnbCt2qbHv.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 423
+# Identity:     355/423 (83.9%)
+# Similarity:   378/423 (89.4%)
+# Gaps:           0/423 ( 0.0%)
+# Score: 1887
+# 
+#
+#=======================================
+
+               10        20        30        40        50
+       MLPPQKKPWESMAKGLVLGALFTSFLLLVYSYAVPPLHAGLASTTPEAAA
+       :    ::: .: ::::.:::::::::::.::: ::::.  .: :: ::::
+       MTLLPKKPCKSKAKGLLLGALFTSFLLLLYSYVVPPLYPNMAFTTSEAAA
+               10        20        30        40        50
+
+               60        70        80        90       100
+       SCSPPALEPEAVIRANGSAGECQPRRNIVFLKTHKTASSTLLNILFRFGQ
+        :::   :: :   :::::: :::::.:::.:::::::::::::::::::
+       PCSPIPNEPVAATPANGSAGGCQPRRDIVFMKTHKTASSTLLNILFRFGQ
+               60        70        80        90       100
+
+              110       120       130       140       150
+       KHRLKFAFPNGRNDFDYPTFFARSLVQDYRPGACFNIICNHMRFHYDEVR
+       :: :::::::::::: ::..::::::::::::::::::::::::::.:::
+       KHELKFAFPNGRNDFHYPSYFARSLVQDYRPGACFNIICNHMRFHYEEVR
+              110       120       130       140       150
+
+              160       170       180       190       200
+       GLVPTNAIFITVLRDPARLFESSFHYFGPVVPLTWKLSAGDKLTEFLQDP
+       :::   : ::::.::::::::::::::: :::::::::. ::: ::::::
+       GLVRPGATFITVIRDPARLFESSFHYFGSVVPLTWKLSSRDKLAEFLQDP
+              160       170       180       190       200
+
+              210       220       230       240       250
+       DRYYDPNGFNAHYLRNLLFFDLGYDNSLDPSSPQVQEHILEVERRFHLVL
+       ::::::. .::::::::::::::::.::::.::.::::::::::::::::
+       DRYYDPSSYNAHYLRNLLFFDLGYDSSLDPASPRVQEHILEVERRFHLVL
+              210       220       230       240       250
+
+              260       270       280       290       300
+       LQEYFDESLVLLKDLLCWELEDVLYFKLNARRDSPVPRLSGELYGRATAW
+       ::::::::::::..::::.::::::::::::::::::::::::: :::::
+       LQEYFDESLVLLRELLCWDLEDVLYFKLNARRDSPVPRLSGELYRRATAW
+              260       270       280       290       300
+
+              310       320       330       340       350
+       NMLDSHLYRHFNASFWRKVEAFGRERMAREVAALRHANERMRTICIDGGH
+       :.::  :::::::::::::::::::::::::: :: ::: :: :::::: 
+       NLLDVRLYRHFNASFWRKVEAFGRERMAREVAELRQANEHMRHICIDGGQ
+              310       320       330       340       350
+
+              360       370       380       390       400
+       AVDAAAIQDEAMQPWQPLGTKSILGYNLKKSIGQRHAQLCRRMLTPEIQY
+       :: : :::: ::::::::: ::::::::::::: .: :::::::::::::
+       AVGAEAIQDSAMQPWQPLGIKSILGYNLKKSIGPQHEQLCRRMLTPEIQY
+              360       370       380       390       400
+
+              410       420   
+       LMDLGANLWVTKLWKFIRDFLRW
+       : ::::::::::::::.::::::
+       LSDLGANLWVTKLWKFLRDFLRW
+              410       420   
+
+
+#---------------------------------------
+#---------------------------------------

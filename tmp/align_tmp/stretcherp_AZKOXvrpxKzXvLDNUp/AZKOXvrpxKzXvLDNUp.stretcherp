@@ -1,0 +1,39 @@
+########################################
+# Program: stretcher
+# Rundate: Sat  7 Jan 2023 02:21:05
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_AZKOXvrpxKzXvLDNUp/AZKOXvrpxKzXvLDNUp_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_AZKOXvrpxKzXvLDNUp/AZKOXvrpxKzXvLDNUp_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/stretcherp_AZKOXvrpxKzXvLDNUp/AZKOXvrpxKzXvLDNUp.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_AZKOXvrpxKzXvLDNUp/AZKOXvrpxKzXvLDNUp.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 16
+# Extend_penalty: 4
+#
+# Length: 5
+# Identity:       4/5 (80.0%)
+# Similarity:     4/5 (80.0%)
+# Gaps:           1/5 (20.0%)
+# Score: 12
+# 
+#
+#=======================================
+
+           4
+       CT-RC
+       :: ::
+       CTARC
+           5
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,39 @@
+########################################
+# Program: stretcher
+# Rundate: Wed  1 Feb 2023 01:25:53
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_J8uBImY0PFJKoD7vad/J8uBImY0PFJKoD7vad_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_J8uBImY0PFJKoD7vad/J8uBImY0PFJKoD7vad_2.in
+#    -datafile EBLOSUM62-12
+#    -outfile ../../tmp/align_tmp/stretcherp_J8uBImY0PFJKoD7vad/J8uBImY0PFJKoD7vad.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_J8uBImY0PFJKoD7vad/J8uBImY0PFJKoD7vad.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62-12
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 5
+# Identity:       2/5 (40.0%)
+# Similarity:     3/5 (60.0%)
+# Gaps:           0/5 ( 0.0%)
+# Score: 5
+# 
+#
+#=======================================
+
+           5
+       APPLE
+       .  ::
+       SMILE
+           5
+
+
+#---------------------------------------
+#---------------------------------------

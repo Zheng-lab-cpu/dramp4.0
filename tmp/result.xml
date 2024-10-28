@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<peptide>
+<search>
+	<DRAMP_ID size="1">DRAMP29318</DRAMP_ID>
+	<Name>PXL01</Peptide_Name>
+	<Peptide_Seq>Not available</Peptide_Seq>
+	<Biological_Activity>Antibacterial</Biological_Activity>
+	<Pubmed_ID>25340801</Pubmed_ID>
+</search>
+<search>
+	<DRAMP_ID size="1">DRAMP29319</DRAMP_ID>
+	<Name>HXP124</Peptide_Name>
+	<Peptide_Seq>Not available</Peptide_Seq>
+	<Biological_Activity>Antifungal</Biological_Activity>
+	<Pubmed_ID>Not available</Pubmed_ID>
+</search>
+<search>
+	<DRAMP_ID size="1">DRAMP29320</DRAMP_ID>
+	<Name>DPK-060</Peptide_Name>
+	<Peptide_Seq>Not available</Peptide_Seq>
+	<Biological_Activity>unknown</Biological_Activity>
+	<Pubmed_ID>25614221</Pubmed_ID>
+</search>
+<search>
+	<DRAMP_ID size="1">DRAMP29321</DRAMP_ID>
+	<Name>Lotilibcin(WAP-8294A2)</Peptide_Name>
+	<Peptide_Seq>cyclo[D-Asn-D-Trp-D-Orn-N(Me)Val-ObAla(3R-isohexyl)-Ser-D-Asn(3R-OH)-Ser-Gly-D-N(Me)Phe-Leu-D-Orn-Glu</Peptide_Seq>
+	<Biological_Activity>Antibacterial</Biological_Activity>
+	<Pubmed_ID>31520522</Pubmed_ID>
+</search>
+<search>
+	<DRAMP_ID size="1">DRAMP29322</DRAMP_ID>
+	<Name>NVB302</Peptide_Name>
+	<Peptide_Seq>Not available</Peptide_Seq>
+	<Biological_Activity>Antifungal</Biological_Activity>
+	<Pubmed_ID>28271058</Pubmed_ID>
+</search>
+<search>
+	<DRAMP_ID size="1">DRAMP29323</DRAMP_ID>
+	<Name>EA360</Peptide_Name>
+	<Peptide_Seq>Not available</Peptide_Seq>
+	<Biological_Activity>unknown</Biological_Activity>
+	<Pubmed_ID>32107480</Pubmed_ID>
+</search>
+<search>
+	<DRAMP_ID size="1">DRAMP29324</DRAMP_ID>
+	<Name>Friulimicin B</Peptide_Name>
+	<Peptide_Seq>Not available</Peptide_Seq>
+	<Biological_Activity>Antibacterial</Biological_Activity>
+	<Pubmed_ID>26041368</Pubmed_ID>
+</search>
+<search>
+	<DRAMP_ID size="1">DRAMP29325</DRAMP_ID>
+	<Name>TD-1792(Cefilavancin)</Peptide_Name>
+	<Peptide_Seq>Not available</Peptide_Seq>
+	<Biological_Activity>Antibacterial</Biological_Activity>
+	<Pubmed_ID>29353377</Pubmed_ID>
+</search>
+<search>
+	<DRAMP_ID size="1">DRAMP29326</DRAMP_ID>
+	<Name>LTX-315(Oncopore, Ruxotemitide)</Peptide_Name>
+	<Peptide_Seq>KKWWKKWXK</Peptide_Seq>
+	<Biological_Activity>Anticancer</Biological_Activity>
+	<Pubmed_ID>36142470##35288467</Pubmed_ID>
+</search>
+<search>
+	<DRAMP_ID size="1">DRAMP29327</DRAMP_ID>
+	<Name>ANG1005(Paclitaxel trevatide)</Peptide_Name>
+	<Peptide_Seq>Not available</Peptide_Seq>
+	<Biological_Activity>Anticancer</Biological_Activity>
+	<Pubmed_ID>31969331</Pubmed_ID>
+</search>
+<search>
+	<DRAMP_ID size="1">DRAMP29328</DRAMP_ID>
+	<Name>Polymyxin B</Peptide_Name>
+	<Peptide_Seq>Not available</Peptide_Seq>
+	<Biological_Activity>Antibacterial</Biological_Activity>
+	<Pubmed_ID>30909507</Pubmed_ID>
+</search>
+<search>
+	<DRAMP_ID size="1">DRAMP29329</DRAMP_ID>
+	<Name>Tyrothricin</Peptide_Name>
+	<Peptide_Seq>Not available</Peptide_Seq>
+	<Biological_Activity>Antibacterial, Antifungal</Biological_Activity>
+	<Pubmed_ID>32926968</Pubmed_ID>
+</search>
+<search>
+	<DRAMP_ID size="1">DRAMP29330</DRAMP_ID>
+	<Name>Vancomycin</Peptide_Name>
+	<Peptide_Seq>Not available</Peptide_Seq>
+	<Biological_Activity>Antubacterial</Biological_Activity>
+	<Pubmed_ID>16323118</Pubmed_ID>
+</search>
+<search>
+	<DRAMP_ID size="1">DRAMP29331</DRAMP_ID>
+	<Name>Onc72</Peptide_Name>
+	<Peptide_Seq>Not available</Peptide_Seq>
+	<Biological_Activity>Antibacterial</Biological_Activity>
+	<Pubmed_ID>Not available</Pubmed_ID>
+</search>
+<search>
+	<DRAMP_ID size="1">DRAMP29332</DRAMP_ID>
+	<Name>Gramicidin S</Peptide_Name>
+	<Peptide_Seq>cyclo[Leu-D-Phe-Pro-Val-Orn-Leu-D-Phe-Pro-Val-Orn]</Peptide_Seq>
+	<Biological_Activity>Antibacterial</Biological_Activity>
+	<Pubmed_ID>Not available</Pubmed_ID>
+</search>
+<search>
+	<DRAMP_ID size="1">DRAMP29333</DRAMP_ID>
+	<Name>Gramicidin D</Peptide_Name>
+	<Peptide_Seq>VGALAVVVWLWLWLW-ethanolamine</Peptide_Seq>
+	<Biological_Activity>Antibacterial</Biological_Activity>
+	<Pubmed_ID>30182355</Pubmed_ID>
+</search>
+</peptide>

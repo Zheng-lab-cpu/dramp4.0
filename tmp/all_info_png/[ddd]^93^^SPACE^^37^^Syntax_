@@ -1,0 +1,11 @@
+>[ddd]^93^^SPACE^^37^^Syntax:
+SPACE(N)
+
+Returns a string consisting of N space characters.
+
+URL: http://dev.mysql.com/doc/refman/5.5/en/string-functions.html
+
+^^mysql> SELECT SPACE(6);
+        ->  
+^^http://dev.mysql.com/doc/refman/5.5/en/string-functions.html^[ddd]
+2

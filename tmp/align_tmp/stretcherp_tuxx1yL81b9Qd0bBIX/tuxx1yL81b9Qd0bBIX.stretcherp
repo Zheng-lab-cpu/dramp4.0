@@ -1,0 +1,39 @@
+########################################
+# Program: stretcher
+# Rundate: Tue  4 Oct 2022 14:48:11
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_tuxx1yL81b9Qd0bBIX/tuxx1yL81b9Qd0bBIX_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_tuxx1yL81b9Qd0bBIX/tuxx1yL81b9Qd0bBIX_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/stretcherp_tuxx1yL81b9Qd0bBIX/tuxx1yL81b9Qd0bBIX.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_tuxx1yL81b9Qd0bBIX/tuxx1yL81b9Qd0bBIX.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 12
+# Identity:       2/12 (16.7%)
+# Similarity:     8/12 (66.7%)
+# Gaps:           1/12 ( 8.3%)
+# Score: 10
+# 
+#
+#=======================================
+
+                10 
+       ASN-LFDIRLIG
+        ::  ...... 
+       GSNDFYEVKIMD
+               10  
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,63 @@
+########################################
+# Program: matcher
+# Rundate: Sun  6 Nov 2022 04:02:19
+# Commandline: matcher
+#    -asequence ../../tmp/align_tmp/matcherp_mAAxGQGvHwtXgLXWjU/mAAxGQGvHwtXgLXWjU_1.in
+#    -bsequence ../../tmp/align_tmp/matcherp_mAAxGQGvHwtXgLXWjU/mAAxGQGvHwtXgLXWjU_2.in
+#    -datafile EBLOSUM45
+#    -outfile ../../tmp/align_tmp/matcherp_mAAxGQGvHwtXgLXWjU/mAAxGQGvHwtXgLXWjU.matcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/matcherp_mAAxGQGvHwtXgLXWjU/mAAxGQGvHwtXgLXWjU.matcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM45
+# Gap_penalty: 14
+# Extend_penalty: 4
+#
+# Length: 214
+# Identity:      58/214 (27.1%)
+# Similarity:   104/214 (48.6%)
+# Gaps:          15/214 ( 7.0%)
+# Score: 214
+# 
+#
+#=======================================
+
+     710       720       730       740       750         
+       IIGEGTYGQVYKARDKDTGEMVALKKVRLDNEKEGFPITAIREIKILRQL
+       ..: : .: ::  . . ::  ::.: .               :. ::. :
+       VLGSGQFGVVYGGKHRKTGRDVAVKVIDKLRFPTKQESQLRNEVAILQSL
+         560       570       580       590       600     
+
+     760       770       780       790       800         
+       THQSIINMKEIVTDKEDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHF
+        :  :.:.. .         :.  .  : .. .     :  .: :    .
+       RHPGIVNLECM---------FETPEKVFVVMEKLHGDMLEMILSSEKGRL
+         610                620       630       640      
+
+     810       820       830       840          850      
+       NENHIKSFMRQLMEGLDYCHKKNFLHRDIKCSNILLNNRG---QIKLADF
+        :   : .. :..  : . : :: .: :.:  :.:: .     :.:: ::
+       PERLTKFLITQILVALRHLHFKNIVHCDLKPENVLLASADPFPQVKLCDF
+        650       660       670       680       690      
+
+        860       870       880       890       900      
+       GLARLYSSEESRPYTNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGE
+       :.::.   .  :   . : :  :  ::.:: .  :  ..:.:: : :.  
+       GFARIIGEKSFR--RSVVGTPAYLAPEVLLNQG-YNRSLDMWSVGVIMYV
+        700         710       720        730       740   
+
+        910       920
+       LFTKKPIFQANQEL
+        ..    :  ....
+       SLSGTFPFNEDEDI
+           750       
+
+
+#---------------------------------------
+#---------------------------------------

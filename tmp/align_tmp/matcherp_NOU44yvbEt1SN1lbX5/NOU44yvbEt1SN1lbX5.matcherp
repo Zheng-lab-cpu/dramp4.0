@@ -1,0 +1,39 @@
+########################################
+# Program: matcher
+# Rundate: Sat 28 Jan 2023 05:58:07
+# Commandline: matcher
+#    -asequence ../../tmp/align_tmp/matcherp_NOU44yvbEt1SN1lbX5/NOU44yvbEt1SN1lbX5_1.in
+#    -bsequence ../../tmp/align_tmp/matcherp_NOU44yvbEt1SN1lbX5/NOU44yvbEt1SN1lbX5_2.in
+#    -datafile EBLOSUM55
+#    -outfile ../../tmp/align_tmp/matcherp_NOU44yvbEt1SN1lbX5/NOU44yvbEt1SN1lbX5.matcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/matcherp_NOU44yvbEt1SN1lbX5/NOU44yvbEt1SN1lbX5.matcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM55
+# Gap_penalty: 14
+# Extend_penalty: 4
+#
+# Length: 10
+# Identity:       8/10 (80.0%)
+# Similarity:     9/10 (90.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 58
+# 
+#
+#=======================================
+
+          10     
+       IKLMNPQRST
+       ::.:::: ::
+       IKIMNPQEST
+               10
+
+
+#---------------------------------------
+#---------------------------------------

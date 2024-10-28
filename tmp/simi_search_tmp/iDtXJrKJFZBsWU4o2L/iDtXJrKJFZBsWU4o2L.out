@@ -1,0 +1,89 @@
+BLASTP 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= 
+Length=264
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP04527                                                          22.3    3.9  
+  DRAMP17804                                                          20.8    9.0  
+  DRAMP21999                                                          20.8    9.7  
+
+
+> DRAMP04527
+Length=88
+
+ Score = 22.3 bits (46),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 9/24 (38%), Positives = 13/24 (55%), Gaps = 0/24 (0%)
+
+Query  18  LTNCILKLYKEKYINTFFFIRYWN  41
+           L++C L L    Y N + F  +WN
+Sbjct  25  LSDCYLPLETNPYCNEWQFAYHWN  48
+
+
+> DRAMP17804
+Length=61
+
+ Score = 20.8 bits (42),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 14/38 (37%), Positives = 19/38 (50%), Gaps = 2/38 (5%)
+
+Query  39  YWNGGPHIRL--RIANKNYNQILEIKEIIKKYLNQYPS  74
+           Y N    IR+   + + NYNQI + KE +  YL   P 
+Sbjct  6   YINASVDIRIPTEVESVNYNQIDKEKENLADYLFNNPG  43
+
+
+> DRAMP21999
+Length=20
+
+ Score = 20.8 bits (42),  Expect = 9.7, Method: Composition-based stats.
+ Identities = 8/18 (45%), Positives = 12/18 (67%), Gaps = 0/18 (0%)
+
+Query  114  PEMNKYIDENALYLSEMI  131
+            P ++  +D NALYL  +I
+Sbjct  2    PRVHPTVDRNALYLIPVI  19
+
+
+
+Lambda     K      H
+   0.321    0.138    0.402 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 17987376
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

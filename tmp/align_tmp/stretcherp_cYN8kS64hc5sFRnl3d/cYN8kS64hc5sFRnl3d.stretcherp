@@ -1,0 +1,39 @@
+########################################
+# Program: stretcher
+# Rundate: Wed 30 Nov 2022 20:08:19
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_cYN8kS64hc5sFRnl3d/cYN8kS64hc5sFRnl3d_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_cYN8kS64hc5sFRnl3d/cYN8kS64hc5sFRnl3d_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/stretcherp_cYN8kS64hc5sFRnl3d/cYN8kS64hc5sFRnl3d.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_cYN8kS64hc5sFRnl3d/cYN8kS64hc5sFRnl3d.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 6
+# Identity:       3/6 (50.0%)
+# Similarity:     3/6 (50.0%)
+# Gaps:           1/6 (16.7%)
+# Score: 2
+# 
+#
+#=======================================
+
+            5
+       PAST-A
+       ::   :
+       PAELLA
+            6
+
+
+#---------------------------------------
+#---------------------------------------

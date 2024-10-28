@@ -1,0 +1,219 @@
+########################################
+# Program: stretcher
+# Rundate: Sun  6 Nov 2022 03:28:42
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_TLfU8NBbxnfJvp15ly/TLfU8NBbxnfJvp15ly_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_TLfU8NBbxnfJvp15ly/TLfU8NBbxnfJvp15ly_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/stretcherp_TLfU8NBbxnfJvp15ly/TLfU8NBbxnfJvp15ly.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_TLfU8NBbxnfJvp15ly/TLfU8NBbxnfJvp15ly.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 1519
+# Identity:     217/1519 (14.3%)
+# Similarity:   374/1519 (24.6%)
+# Gaps:         648/1519 (42.7%)
+# Score: -1049
+# 
+#
+#=======================================
+
+               10        20        30        40        50
+       MPSSSDTALGGGGGLSWAEKKLEERRKRRRFLSPQQPPLLLPLLQPQLLQ
+       : ..     :  :                    :  ::       :  :.
+       MATAPSYPAGLPGSPG-----------------PGSPP------PPGGLE
+               10                         20             
+
+               60        70        80        90       100
+       PPPPPPPLLFLAAPGTAAAAAAAAAASSSCFSPGPPLEVKRLARGKRRAG
+          ::: :  . :::.  .       .   :   :      ::  :. : 
+       LQSPPPLLPQIPAPGSGVSFHIQIGLTRE-FVLLPA--ASELAHVKQLAC
+        30        40        50         60          70    
+
+              110       120       130       140       150
+       GRQKRRRGPRAGQEAEKRRVFSLPQPQQDGGGGASSGGGVTPLVEYEDVS
+           ..  :  :      ..                      :..    :
+       SIVDQKF-PECGFYGLYDKILLFKHDPTSAN-----------LLQLVRSS
+           80         90       100                  110  
+
+              160       170       180       190       200
+       SQSEQGLLLGGASAATAATAAGGTGGSGGSPASSSGTQRRGEGSERRPRR
+          ..: :.    .:.:                        :  . ::  
+       GDIQEGDLVEVVLSASATF----------------------EDFQIRPHA
+            120       130                             140
+
+              210       220       230       240       250
+       DRRSSSGRSKERHREHRRRDGQRGGSEASKSRSRHSHSGEERAEVAKSGS
+           :      :        :.       .               : :  
+       LTVHSY-----RAPAFCDHCGEMLFGLVRQGLKCDGCGLNYHKRCAFSIP
+                   150       160       170       180     
+
+              260       270       280       290       300
+       SSSSGGRRKSASATSSSSSSRKDRDSKAHRSRTKSSKEPPSAYKEPPKAY
+       .. :: :..  :.:: .:          :  :  .:.  :   .:  .. 
+       NNCSGARKRRLSSTSLASG---------HSVRLGTSESLPCTAEELSRST
+         190       200                210       220      
+
+              310       320       330       340       350
+       REDKTEPKAYRRRRSLSPLGGRDDSPVSHRASQSLRSRKSPSPAGGGSSP
+        :             : :                 :   : : .   :: 
+       TE-------------LLP-----------------RRPPSSSSSSSASSY
+                     230                        240      
+
+              360       370       380       390       400
+       YSRRLPRSPSPYSRRRSPSYSRHSSYERGGDVSPSPYSSSSWRRSRSPYS
+         : .       :. . :      :: :       :    . ..      
+       TGRPIELDKMLLSKVKVPHTFLIHSYTR-------PTVCQACKKLLKG--
+        250       260       270              280         
+
+              410       420       430       440       450
+       PVLRRSGKSRSRSPYSSRHSRSRSRHRLSRSRSRHSSISPSTLTLKSSLA
+         : : :       ..  : :  .:  .       . :.      ...  
+       --LFRQGLQCKDCKFNC-HKRCATR--VPNDCLGEALINGDVPMEEATDF
+         290       300          310       320       330  
+
+              460       470       480       490       500
+       AELNKNKKARAAEAARAAEAAKAAEATKAAEAAAKAAKASNTSTPTKGNT
+       .: .:.     .: .     . .  :  :.:        . .:       
+       SEADKSALMDESEDSGVIPGSHSENALHASEEEEGEGGKAQSSLGYIPLM
+            340       350       360       370       380  
+
+              510       520       530       540       550
+       ETSASASQTNHVKDVKKIKIEHAPSPSSGGTLKNDKAKTKPPLQVTKVEN
+           :   :   :    ..       :.  ::.           .:  .:
+       RVVQSVRHTTR-KSSTTLREGWVVHYSNKDTLRKRHYWRLDCKCITLFQN
+            390        400       410       420       430 
+
+              560       570       580       590       600
+       NLIVDKATKKAVIVGKESKSAATKEESVSLKEKTKPLTPSIGAKEKEQHV
+       :   ..  :.  .   :  .  . .    .   : :    :        :
+       NT-TNRYYKEIPL--SEILTVESAQNFSLVPPGTNPHCFEIVTANATYFV
+              440         450       460       470        
+
+              610       620       630       640       650
+       ALVTSTLPPLPLPPMLPEDKEADSLRGNISVKAVKKEVEKKLRCLLADLP
+         .    :  :        . :.. ::     :... .   .  .: : :
+       GEMPGGTPGGP------SGQGAEAARG--WETAIRQAL---MPVILQDAP
+      480             490         500          510       
+
+              660       670       680       690       700
+       LPPELPGGDDLSKSPEEKKTATQLHSKRRPKICGPRYGETKEKDIDWGKR
+         :          .:   . :.   :    .:         ....:    
+       SAP--------GHAPH--RQASLSISVSNSQI---------QENVDIAT-
+       520                 530                540        
+
+              710       720       730          740       
+       CVDKFDIIGIIGEGTYGQVYKARDKDTGEMVALK---KVRLDNEKEGFPI
+        : .     ..: : .: ::  . . ::  ::.:   :.:   ..:    
+       -VYQIFPDEVLGSGQFGVVYGGKHRKTGRDVAVKVIDKLRFPTKQES---
+        550       560       570       580       590      
+
+       750       760       770       780       790       
+       TAIREIKILRQLTHQSIINMKEIVTDKEDALDFKKDKGAFYLVFEYMDHD
+           :. ::. : :  :.:.. .    :            ..: : .  :
+       QLRNEVAILQSLRHPGIVNLECMFETPEKV----------FVVMEKLHGD
+           600       610       620                 630   
+
+       800        810       820       830       840      
+       LMGL-LESGLVHFNENHIKSFMRQLMEGLDYCHKKNFLHRDIKCSNILLN
+       .. . : :      :   :  . :..  : . : :: .: :.:  :.:: 
+       MLEMILSSEKGRLPERLTKFLITQILVALRHLHFKNIVHCDLKPENVLLA
+           640       650       660       670       680   
+
+           850       860       870       880       890   
+       NRG---QIKLADFGLARLYSSEESRPYTNKVITLWYRPPELLLGEERYTP
+       .     :.:: ::: ::.   .  :   . : :  :  ::.:: .  :  
+       SADPFPQVKLCDFGFARIIGEKSFR--RSVVGTPAYLAPEVLLNQG-YNR
+           690       700         710       720        730
+
+           900       910       920       930       940   
+       AIDVWSCGCILGELFTKKPIFQANQELAQLELISRICGSPCPAVWPDVIK
+       ..:.:: : :.    .    :  ....                   : :.
+       SLDMWSVGVIMYVSLSGTFPFNEDEDIN------------------DQIQ
+              740       750                         760  
+
+           950       960       970       980       990   
+       LPYFNTMKPKKQYRRKLREEFVFIPAAALDLFDYMLALDPSKRCTAEQAL
+          :  : :   .          : : :.:: . .: .   :: . ...:
+       NAAF--MYPASPWSH--------ISAGAIDLINNLLQVKMRKRYSVDKSL
+              770               780       790       800  
+
+          1000      1010      1020      1030      1040   
+       QCEFLRDVEPSKMPPPDLPLWQDCHELWSKKRRRQKQMGMTDDVSTIKAP
+          .:.. .           : :  ::  :   :                
+       SHPWLQEYQT----------WLDLRELEGKMGER----------------
+            810                 820                      
+
+          1050      1060      1070      1080      1090   
+       RKDLSLGLDDSRTNTPQGVLPSSQLKSQGSSNVAPVKTGPGQHLNHSELA
+                                                 .. :    
+       ------------------------------------------YITH----
+                                                  830    
+
+          1100      1110      1120      1130      1140   
+       ILLNLLQSKTSVNMADFVQVLNIKVNSETQQQLNKINLPAGILATGEKQT
+                                                         
+       --------------------------------------------------
+                                                         
+
+          1150      1160      1170      1180      1190   
+       DPSTPQQESSKPLGGIQPSSQTIQPKVETDAAQAAVQSAFAVLLTQLIKA
+                                  :.: :.      ::         
+       ---------------------------ESDDAR---WEQFAA--------
+                                            840          
+
+          1200      1210      1220      1230      1240   
+       QQSKQKDVLLEERENGSGHEASLQLRPPPEPSTPVSGQDDLIQHQDMRIL
+                                    :   : ::             
+       -----------------------------EHPLPGSG-------------
+                                         850             
+
+          1250      1260      1270      1280      1290   
+       ELTPEPDRPRILPPDQRPPEPPEPPPVTEEDLDYRTENQHVPTTSSSLTD
+                  ::              :. ::                  
+       -----------LP--------------TDRDL------------------
+                                                         
+
+          1300      1310      1320      1330      1340   
+       PHAGVKAALLQLLAQHQPQDDPKREGGIDYQAGDTYVSTSDYKDNFGSSS
+                                ::                       
+       -------------------------GG-----------------------
+                                                         
+
+          1350      1360      1370      1380      1390   
+       FSSAPYVSNDGLGSSSAPPLERRSFIGNSDIQSLDNYSTASSHSGGPPQP
+                                                     ::: 
+       --------------------------------------------ACPPQ-
+                                                 860     
+
+          1400      1410      1420      1430      1440   
+       SAFSESFPSSVAGYGDIYLNAGPMLFSGDKDHRFEYSHGPIAVLANSSDP
+                                     ::  .     :.::      
+       ------------------------------DHDMQGLAERISVL------
+                                        870              
+
+          1450      1460      1470      1480      1490   
+       STGPESTHPLPAKMHNYNYGGNLQENPSGPSLMHGQTWTSPAQGPGYSQG
+                                                         
+       --------------------------------------------------
+                                                         
+
+          1500      1510  
+       YRGHISTSTGRGRGRGLPY
+                          
+       -------------------
+                          
+
+
+#---------------------------------------
+#---------------------------------------

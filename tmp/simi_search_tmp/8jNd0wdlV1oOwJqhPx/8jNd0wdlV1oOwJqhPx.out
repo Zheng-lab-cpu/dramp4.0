@@ -1,0 +1,77 @@
+BLASTP 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= 
+Length=71
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP09774                                                          23.1    2.1  
+  DRAMP09775                                                          22.7    2.2  
+
+
+> DRAMP09774
+Length=92
+
+ Score = 23.1 bits (48),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 10/27 (38%), Positives = 14/27 (52%), Gaps = 0/27 (0%)
+
+Query  7   QTPHLPMSSAQQKPENAGHSDYKRGGA  33
+           Q P++  +   +K  NAGHSD    G 
+Sbjct  4   QDPYVKEAENLKKYFNAGHSDVADNGT  30
+
+
+> DRAMP09775
+Length=63
+
+ Score = 22.7 bits (47),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 10/27 (38%), Positives = 14/27 (52%), Gaps = 0/27 (0%)
+
+Query  7   QTPHLPMSSAQQKPENAGHSDYKRGGA  33
+           Q P++  +   +K  NAGHSD    G 
+Sbjct  4   QDPYVKEAENLKKYFNAGHSDVADNGT  30
+
+
+
+Lambda     K      H
+   0.322    0.138    0.449 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 17129640
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,915 @@
+BLASTP 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= LAIMBELL_00001 2-oxoglutarate dehydrogenase E1 component
+
+Length=935
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP02558                                                          25.8    0.75 
+  DRAMP24332                                                          24.3    2.2  
+  DRAMP17634                                                          23.9    2.8  
+  DRAMP17813                                                          23.5    4.0  
+  DRAMP05807                                                          23.1    4.8  
+  DRAMP05806                                                          23.1    4.9  
+  DRAMP12383                                                          22.3    7.5  
+  DRAMP14998                                                          21.9    10.0 
+
+
+> DRAMP02558
+Length=91
+
+ Score = 25.8 bits (55),  Expect = 0.75, Method: Composition-based stats.
+ Identities = 16/60 (27%), Positives = 31/60 (52%), Gaps = 9/60 (15%)
+
+Query  437  IAMEFRKEFHKDFVIDLV---GYRR------YGHNEMDEPSITNPTLYHNIRQHDSVEVI  487
+            ++ E + + +K+ +I ++   G+RR      +G  E DE       +  NIR++DS+  I
+Sbjct  5    VSFEIKFKTNKEKIISILKHFGFRRMQENLYFGDVEYDELYAMQSDIMENIREYDSILTI  64
+
+
+> DRAMP24332
+Length=20
+
+ Score = 24.3 bits (51),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 7/13 (54%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  467  PSITNPTLYHNIR  479
+            PS+ NPT YH+++
+Sbjct  6    PSLANPTCYHSLK  18
+
+
+> DRAMP17634
+Length=70
+
+ Score = 23.9 bits (50),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 12/27 (45%), Positives = 16/27 (60%), Gaps = 3/27 (11%)
+
+Query  176  YKATINSDEKINLF---KTLAHVEGFE  199
+            YK+T NSDE I  F    TL + + +E
+Sbjct  21   YKSTYNSDEYITTFVMSDTLEYTKAYE  47
+
+
+> DRAMP17813
+Length=95
+
+ Score = 23.5 bits (49),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 10/21 (48%), Positives = 13/21 (62%), Gaps = 0/21 (0%)
+
+Query  837  EPNENIQLIAVERLYPFPEED  857
+            EPNE +  I +E + PF E D
+Sbjct  73   EPNEGMVDINIETMKPFEEAD  93
+
+
+> DRAMP05807
+Length=76
+
+ Score = 23.1 bits (48),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 8/12 (67%), Positives = 8/12 (67%), Gaps = 0/12 (0%)
+
+Query  348  FHHGMPIIIHGD  359
+            FHHG P   HGD
+Sbjct  44   FHHGPPGFWHGD  55
+
+
+> DRAMP05806
+Length=76
+
+ Score = 23.1 bits (48),  Expect = 4.9, Method: Composition-based stats.
+ Identities = 8/12 (67%), Positives = 8/12 (67%), Gaps = 0/12 (0%)
+
+Query  348  FHHGMPIIIHGD  359
+            FHHG P   HGD
+Sbjct  44   FHHGPPGFWHGD  55
+
+
+> DRAMP12383
+Length=56
+
+ Score = 22.3 bits (46),  Expect = 7.5, Method: Composition-based stats.
+ Identities = 10/19 (53%), Positives = 12/19 (64%), Gaps = 0/19 (0%)
+
+Query  43  LFSTIKNGEAQVKAKFTTD  61
+           LF  +KN +AQVK K   D
+Sbjct  17  LFFIVKNVDAQVKCKTVKD  35
+
+
+> DRAMP14998
+Length=100
+
+ Score = 21.9 bits (45),  Expect = 10.0, Method: Composition-based stats.
+ Identities = 20/69 (29%), Positives = 27/69 (40%), Gaps = 8/69 (11%)
+
+Query  4   DKRDVTEAPVNFGANLGLMLDLYDDYLQDPTS--------VSDDLQVLFSTIKNGEAQVK  55
+           D RD+  APV    + GL+ D    +L  P S        V     V  +++     Q K
+Sbjct  6   DPRDIILAPVISEKSYGLLDDNVYTFLVRPDSNKTQIKIAVEKIFGVKVASVNTANRQGK  65
+
+Query  56  AKFTTDGSG  64
+            K T  G G
+Sbjct  66  RKRTRTGYG  74
+
+
+
+Lambda     K      H
+   0.315    0.133    0.381 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 42001248
+
+
+Query= LAIMBELL_00002 Dihydrolipoyllysine-residue succinyltransferase
+component of 2-oxoglutarate dehydrogenase complex
+
+Length=435
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP00690                                                          23.9    1.1  
+  DRAMP14986                                                          21.9    4.5  
+  DRAMP15002                                                          21.9    4.7  
+  DRAMP01369                                                          21.9    4.8  
+  DRAMP04515                                                          21.6    7.0  
+  DRAMP13571                                                          21.2    7.8  
+
+
+> DRAMP00690
+Length=69
+
+ Score = 23.9 bits (50),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 10/21 (48%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  197  ANTPNKPVIREKMSRRKKTAA  217
+            AN PN+P I E  +  KKT++
+Sbjct  47   ANIPNQPCISEYQNCGKKTSS  67
+
+
+> DRAMP14986
+Length=95
+
+ Score = 21.9 bits (45),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 15/46 (33%), Positives = 22/46 (48%), Gaps = 1/46 (2%)
+
+Query  127  DDSESINNKRVNATPSARRHARKNGIDLNEVAGKGSDVIRKEDVDN  172
+            DD E ++ K   + P+ R H R +G     V GK  D  + + VD 
+Sbjct  34   DDGEKVHLKIDPSVPNGRFHPRFDG-QTGTVEGKQGDAYKVDIVDG  78
+
+
+> DRAMP15002
+Length=100
+
+ Score = 21.9 bits (45),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 8/26 (31%), Positives = 13/26 (50%), Gaps = 0/26 (0%)
+
+Query  375  LGMHSIITRPIAIDKDTIENRPMMYI  400
+            L +H ++ RPI  +K  I      Y+
+Sbjct  6    LSLHDVLIRPIITEKALILREQRKYV  31
+
+
+> DRAMP01369
+Length=26
+
+ Score = 21.9 bits (45),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 10/16 (63%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+
+Query  416  GFLKTIKELIESPEDL  431
+            G L+TIKE +ES E L
+Sbjct  1    GLLQTIKEKLESLESL  16
+
+
+> DRAMP04515
+Length=74
+
+ Score = 21.6 bits (44),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 8/17 (48%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  260  KLGFMSFFTKAAVAALK  276
+            K GFMS F +  ++A+K
+Sbjct  40   KRGFMSTFKQVGISAIK  56
+
+
+> DRAMP13571
+Length=30
+
+ Score = 21.2 bits (43),  Expect = 7.8, Method: Composition-based stats.
+ Identities = 10/26 (39%), Positives = 15/26 (58%), Gaps = 0/26 (0%)
+
+Query  303  STDDGLLVPFVRDCDKKNFAELEKSI  328
+            + ++G  VP+V    KKN  E +K I
+Sbjct  1    NAEEGTAVPYVPGYHKKNEIEFQKDI  26
+
+
+
+Lambda     K      H
+   0.307    0.126    0.333 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 18974248
+
+
+Query= LAIMBELL_00003 hypothetical protein
+
+Length=58
+
+
+***** No hits found *****
+
+
+
+Lambda     K      H
+   0.309    0.125    0.334 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 18111074
+
+
+Query= LAIMBELL_00004 Putative ring-cleaving dioxygenase MhqA
+
+Length=269
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP05414                                                          22.7    2.9  
+  DRAMP22231                                                          21.9    4.7  
+  DRAMP17771                                                          21.2    6.9  
+  DRAMP17940                                                          20.8    9.7  
+
+
+> DRAMP05414
+Length=66
+
+ Score = 22.7 bits (47),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 9/32 (29%), Positives = 17/32 (54%), Gaps = 0/32 (0%)
+
+Query  154  LLVTTSIFKNVFNLTHYAEYESTEFPDQTVQV  185
+            LL+  +++ N F+    A+ E  + PD  V +
+Sbjct  9    LLLCAALYSNFFDCKAVADAELPKLPDDKVLI  40
+
+
+> DRAMP22231
+Length=21
+
+ Score = 21.9 bits (45),  Expect = 4.7, Method: Composition-based stats.
+ Identities = 9/14 (65%), Positives = 11/14 (79%), Gaps = 0/14 (0%)
+
+Query  1   MSGLRSVTIGTSDL  14
+           +SGLR  TI T+DL
+Sbjct  6   LSGLRIFTISTADL  19
+
+
+> DRAMP17771
+Length=84
+
+ Score = 21.2 bits (43),  Expect = 6.9, Method: Composition-based stats.
+ Identities = 17/61 (28%), Positives = 28/61 (46%), Gaps = 7/61 (11%)
+
+Query  158  TSIFKNVFNLTHYAEYESTEFPDQTVQVFKIGDGGLGGEIHLYQSNEQVELKEEGIVEQI  217
+            T++ K   N+T +AE ES  F ++     +         I L       EL+E+G+ E +
+Sbjct  20   TNLTKAAENVTEWAEEESAHFNNKARLQREQA-------IALLNIENAQELQEKGLTEAV  72
+
+Query  218  E  218
+            E
+Sbjct  73   E  73
+
+
+> DRAMP17940
+Length=66
+
+ Score = 20.8 bits (42),  Expect = 9.7, Method: Composition-based stats.
+ Identities = 12/39 (31%), Positives = 20/39 (52%), Gaps = 0/39 (0%)
+
+Query  50  HFVEVPNPNYRNVHISSVGLRTPSNAGLEEYQQILEKNN  88
+           H  E+    Y N ++    ++T    GLEEY+  L++ N
+Sbjct  23  HAREIQALRYMNDYLLDEVVKTKGYNGLEEYRIELKRIN  61
+
+
+
+Lambda     K      H
+   0.315    0.135    0.378 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 18359016
+
+
+Query= LAIMBELL_00005 hypothetical protein
+
+Length=69
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP17654                                                          23.1    2.3  
+
+
+> DRAMP17654
+Length=97
+
+ Score = 23.1 bits (48),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 14/46 (31%), Positives = 21/46 (46%), Gaps = 0/46 (0%)
+
+Query  10  SRTPIKQVMVVNTDAKKFTVSDMLTIGKQYDVINETEEYYQIIDNS  55
+           +R  IK+ M V      +      T+GK+Y+V+     Y  I DN 
+Sbjct  17  TRDNIKEGMKVVCVKSIYESQGYFTVGKEYEVVMGNCGYLGIKDNG  62
+
+
+
+Lambda     K      H
+   0.317    0.134    0.387 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 18412464
+
+
+Query= LAIMBELL_00006 Denitrification regulatory protein NirQ
+
+Length=263
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP17647                                                          22.3    3.3  
+  DRAMP17671                                                          21.9    5.0  
+
+
+> DRAMP17647
+Length=93
+
+ Score = 22.3 bits (46),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 9/18 (50%), Positives = 13/18 (73%), Gaps = 0/18 (0%)
+
+Query  85   IDGPVIKAMREGHILYID  102
+            IDG  IK ++EG I Y++
+Sbjct  41   IDGEGIKWLKEGAIKYME  58
+
+
+> DRAMP17671
+Length=84
+
+ Score = 21.9 bits (45),  Expect = 5.0, Method: Composition-based stats.
+ Identities = 11/30 (37%), Positives = 15/30 (50%), Gaps = 0/30 (0%)
+
+Query  121  YRRQLTNPFTGEVIKAAPGFNVIAAINEGY  150
+            YR +  N +  EVI +  GF  I   N+ Y
+Sbjct  18   YREEYANGWAVEVIHSLKGFGHIYVENKPY  47
+
+
+
+Lambda     K      H
+   0.318    0.136    0.373 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 17913048
+
+
+Query= LAIMBELL_00007 hypothetical protein
+
+Length=629
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP04690                                                          25.0    0.82 
+  DRAMP05810                                                          21.9    6.7  
+  DRAMP17810                                                          21.6    8.7  
+
+
+> DRAMP04690
+Length=95
+
+ Score = 25.0 bits (53),  Expect = 0.82, Method: Composition-based stats.
+ Identities = 10/17 (59%), Positives = 14/17 (83%), Gaps = 0/17 (0%)
+
+Query  284  AYLEMELHEGENSDVMS  300
+            A+LE EL E EN+D++S
+Sbjct  35   AFLEKELKEVENTDIVS  51
+
+
+> DRAMP05810
+Length=68
+
+ Score = 21.9 bits (45),  Expect = 6.7, Method: Composition-based stats.
+ Identities = 8/28 (29%), Positives = 16/28 (58%), Gaps = 0/28 (0%)
+
+Query  228  YHLPRKVYEAIHEMSYEDIKRMDASNVD  255
+            +H  R ++  IH   Y++ + +D  +VD
+Sbjct  32   HHGIRAIHHLIHGQRYDEQQELDKRSVD  59
+
+
+> DRAMP17810
+Length=84
+
+ Score = 21.6 bits (44),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 11/35 (32%), Positives = 20/35 (58%), Gaps = 0/35 (0%)
+
+Query  589  TEDIEETIHNIYGQFALFVEGVENLPSHLSPLLKK  623
+            TE + + I ++Y +   F E +E LP+ +   LK+
+Sbjct  22   TEGLLKEIEDVYKKAQAFDEILEGLPNAMQDALKE  56
+
+
+
+Lambda     K      H
+   0.318    0.134    0.382 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 27908724
+
+
+Query= LAIMBELL_00008 Branched-chain amino acid transport system 2 carrier
+protein
+
+Length=447
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP12743                                                          23.9    1.2  
+  DRAMP02543                                                          22.7    2.9  
+  DRAMP14587                                                          21.9    5.1  
+  DRAMP28521                                                          21.6    5.6  
+  DRAMP12102                                                          21.6    6.0  
+  DRAMP12205                                                          21.2    8.2  
+  DRAMP12191                                                          21.2    9.3  
+
+
+> DRAMP12743
+Length=57
+
+ Score = 23.9 bits (50),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 11/37 (30%), Positives = 20/37 (55%), Gaps = 0/37 (0%)
+
+Query  297  LACLTTACGLIVSVSQYFYSIFSKISYKVYVIGFTII  333
+            L C    C ++V   + ++SI SK  + + VI F ++
+Sbjct  21   LRCTQGNCVMLVGQGKNYFSIMSKTLFSLLVIIFLLL  57
+
+
+> DRAMP02543
+Length=88
+
+ Score = 22.7 bits (47),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 8/19 (43%), Positives = 15/19 (79%), Gaps = 0/19 (0%)
+
+Query  311  SQYFYSIFSKISYKVYVIG  329
+            S YFYS+ ++++Y+  V+G
+Sbjct  60   SVYFYSLENRLNYRKTVLG  78
+
+
+> DRAMP14587
+Length=77
+
+ Score = 21.9 bits (45),  Expect = 5.1, Method: Composition-based stats.
+ Identities = 9/23 (40%), Positives = 12/23 (53%), Gaps = 0/23 (0%)
+
+Query  78  VIFLIIIYLTIGPLFAIPRTAST  100
+           V FL+I+   +GP     RT  T
+Sbjct  13  VFFLLIVATEMGPSMVAARTCET  35
+
+
+> DRAMP28521
+Length=22
+
+ Score = 21.6 bits (44),  Expect = 5.6, Method: Composition-based stats.
+ Identities = 7/9 (78%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  166  YKGHSSSHG  174
+            ++GHSSSHG
+Sbjct  7    HQGHSSSHG  15
+
+
+> DRAMP12102
+Length=64
+
+ Score = 21.6 bits (44),  Expect = 6.0, Method: Composition-based stats.
+ Identities = 6/22 (28%), Positives = 15/22 (69%), Gaps = 0/22 (0%)
+
+Query  114  SNMSLFIFTLIYFIVVLYLCIN  135
+            +N++ F++  IYF+ + ++  N
+Sbjct  2    ANVTKFVYIAIYFLSLFFIAKN  23
+
+
+> DRAMP12205
+Length=43
+
+ Score = 21.2 bits (43),  Expect = 8.2, Method: Composition-based stats.
+ Identities = 12/33 (37%), Positives = 19/33 (58%), Gaps = 0/33 (0%)
+
+Query  106  ITPITHSNSNMSLFIFTLIYFIVVLYLCINPGK  138
+            +TPIT +  +M +FI  LI  + +  LC   G+
+Sbjct  1    MTPITKNIFDMIIFISPLIVTMSMRVLCGRDGR  33
+
+
+> DRAMP12191
+Length=65
+
+ Score = 21.2 bits (43),  Expect = 9.3, Method: Composition-based stats.
+ Identities = 7/21 (34%), Positives = 16/21 (77%), Gaps = 0/21 (0%)
+
+Query  115  NMSLFIFTLIYFIVVLYLCIN  135
+            N+  FI+ +I+FI++ ++ I+
+Sbjct  3    NILKFIYVIIFFILMFFVLID  23
+
+
+
+Lambda     K      H
+   0.329    0.144    0.422 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 19526896
+
+
+Query= LAIMBELL_00009 TelA-like protein
+
+Length=379
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP15275                                                          23.1    2.6  
+  DRAMP15279                                                          21.9    6.5  
+
+
+> DRAMP15275
+Length=88
+
+ Score = 23.1 bits (48),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 18/69 (27%), Positives = 33/69 (48%), Gaps = 4/69 (5%)
+
+Query  124  TKASINEVFSRMQSVSSQVDRITIQLDKHKGNLTKDIQLLDHLYEQNKVYFEDVSLYIAA  183
+            TKA   E+ +R          I++Q+      L +DI+ L   +E+NK     +  +IA 
+Sbjct  3    TKAKKAEIITRFGKSEKNTGDISVQI----ALLPEDIEKLKLHFEKNKKDKHSMRGFIAK  58
+
+Query  184  AQRKKQEIN  192
+              ++K+ +N
+Sbjct  59   VNKRKKLLN  67
+
+
+> DRAMP15279
+Length=86
+
+ Score = 21.9 bits (45),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 13/42 (31%), Positives = 20/42 (48%), Gaps = 2/42 (4%)
+
+Query  161  QLLDHLYEQNKVYFEDVSLYIAAAQRKK--QEINANELPKLR  200
+            QL DHL    K +     LY   ++RK+  + +  N+L   R
+Sbjct  35   QLTDHLLANKKDFISKRGLYAKVSKRKRLLKYLKHNDLEAYR  76
+
+
+
+Lambda     K      H
+   0.313    0.127    0.335 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 26535096
+
+
+Query= LAIMBELL_00010 hypothetical protein
+
+Length=208
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP14996                                                          21.9    4.7  
+  DRAMP15202                                                          21.9    4.9  
+  DRAMP17774                                                          21.6    5.6  
+  DRAMP17781                                                          21.6    6.7  
+  DRAMP02950                                                          21.2    7.3  
+
+
+> DRAMP14996
+Length=93
+
+ Score = 21.9 bits (45),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 8/36 (23%), Positives = 17/36 (48%), Gaps = 0/36 (0%)
+
+Query  63  IGLSRRDYRFVNQQLNQSHNKIRNILKSYINIRSIK  98
+           +GL  +    V    N + N+++ + K+Y     +K
+Sbjct  17  LGLQEKGVLVVQTAQNVTKNQLKEVFKTYFGFEPLK  52
+
+
+> DRAMP15202
+Length=100
+
+ Score = 21.9 bits (45),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 19/53 (36%), Positives = 26/53 (50%), Gaps = 6/53 (11%)
+
+Query  151  MPKKSAEEKQKLEQTRITLDE---VKRTLIADLKRLNEDDYERLDIEMELNRL  200
+            M KKS  E+   E+ RI L+     KR  +    R  ED   RLDI  ++ +L
+Sbjct  1    MAKKSMIER---EKKRIKLNNKYTPKRNTLLQAYRQTEDFQSRLDIHSKIQKL  50
+
+
+> DRAMP17774
+Length=70
+
+ Score = 21.6 bits (44),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 11/29 (38%), Positives = 16/29 (56%), Gaps = 0/29 (0%)
+
+Query  121  PSSFFKVESFFYSHIDNALNLIDAYTRLS  149
+            P S  +V+  FYS +   LNL+   T +S
+Sbjct  25   PYSLSEVQDDFYSTVAQILNLVRRGTGIS  53
+
+
+> DRAMP17781
+Length=99
+
+ Score = 21.6 bits (44),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 9/30 (30%), Positives = 16/30 (54%), Gaps = 0/30 (0%)
+
+Query  69  DYRFVNQQLNQSHNKIRNILKSYINIRSIK  98
+           D+ FVN Q+        +  K+Y+N+ S +
+Sbjct  70  DFGFVNNQIQWYDTYSTSYGKAYLNVVSFR  99
+
+
+> DRAMP02950
+Length=80
+
+ Score = 21.2 bits (43),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 9/25 (36%), Positives = 14/25 (56%), Gaps = 0/25 (0%)
+
+Query  134  HIDNALNLIDAYTRLSKMPKKSAEE  158
+            ++D  +NL D Y  +S+ P  S  E
+Sbjct  1    YVDREINLFDHYCIISRSPHISRWE  25
+
+
+
+Lambda     K      H
+   0.324    0.139    0.390 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 19186574
+
+
+Query= LAIMBELL_00011 Acylphosphatase
+
+Length=91
+
+
+***** No hits found *****
+
+
+
+Lambda     K      H
+   0.318    0.135    0.376 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 18297900
+
+
+Query= LAIMBELL_00012 hypothetical protein
+
+Length=102
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP05804                                                          24.3    0.84 
+
+
+> DRAMP05804
+Length=62
+
+ Score = 24.3 bits (51),  Expect = 0.84, Method: Compositional matrix adjust.
+ Identities = 10/43 (24%), Positives = 23/43 (54%), Gaps = 0/43 (0%)
+
+Query  1   MWTVAKIRADYEGWWLFSDWTEKIVEQHHYSNYEEMLEDYQSI  43
+           ++ V  +    EG+W F +   + + Q H+++ E+   D +S+
+Sbjct  10  LFMVVLMAEPGEGYWRFRNHRGERLSQRHFADVEQQELDKRSV  52
+
+
+
+Lambda     K      H
+   0.321    0.138    0.455 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 18334330
+
+
+Query= LAIMBELL_00013 Cold shock protein CspA
+
+Length=66
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP17895                                                          24.3    0.82 
+  DRAMP14991                                                          21.9    4.0  
+
+
+> DRAMP17895
+Length=86
+
+ Score = 24.3 bits (51),  Expect = 0.82, Method: Compositional matrix adjust.
+ Identities = 9/27 (34%), Positives = 15/27 (56%), Gaps = 0/27 (0%)
+
+Query  18  IEVEGENDVFVHFSAINQEGYKSLEEG  44
+           I +  END++     +NQ  Y+ +EE 
+Sbjct  46  INITDENDLYTALDILNQSIYEWIEEN  72
+
+
+> DRAMP14991
+Length=100
+
+ Score = 21.9 bits (45),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 10/20 (50%), Positives = 16/20 (80%), Gaps = 2/20 (10%)
+
+Query  35  QEGYKSLEEGQSVEFEVVEG  54
+           ++ Y +L+EGQS++F  VEG
+Sbjct  80  KKAYVTLQEGQSLDF--VEG  97
+
+
+
+Lambda     K      H
+   0.313    0.134    0.385 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 17426082
+
+
+Query= LAIMBELL_00014 Diaminopimelate decarboxylase
+
+Length=421
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP17860                                                          25.8    0.35 
+  DRAMP15341                                                          22.7    2.4  
+  DRAMP17780                                                          22.7    2.8  
+  DRAMP17760                                                          22.7    3.0  
+  DRAMP14186                                                          21.9    4.6  
+  DRAMP13617                                                          21.6    5.5  
+  DRAMP12530                                                          21.6    6.4  
+  DRAMP12073                                                          21.6    6.4  
+  DRAMP05766                                                          20.8    8.9  
+
+
+> DRAMP17860
+Length=71
+
+ Score = 25.8 bits (55),  Expect = 0.35, Method: Composition-based stats.
+ Identities = 14/33 (43%), Positives = 19/33 (58%), Gaps = 1/33 (3%)
+
+Query  326  KYQALLVNRHEKADETVTIAGKLCESGDIIIRD  358
+            +YQ L+V+RH K     T AG+   S D +I D
+Sbjct  34   RYQCLVVSRHYKKKRQ-TAAGRWQPSADDLIAD  65
+
+
+> DRAMP15341
+Length=55
+
+ Score = 22.7 bits (47),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 10/26 (39%), Positives = 15/26 (58%), Gaps = 0/26 (0%)
+
+Query  27  TPTIVYDEDEIRNQMRRFHNAFQKSG  52
+           + TIV   + I + +RRF  A  K+G
+Sbjct  1   SKTIVRKNESIDDALRRFKRAVSKTG  26
+
+
+> DRAMP17780
+Length=51
+
+ Score = 22.7 bits (47),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 12/45 (27%), Positives = 21/45 (47%), Gaps = 1/45 (2%)
+
+Query  95   KFDPSRIHFHGNNKTKREIQYALESGVGYFVIDSLEEIELIDRYA  139
+            K  P+R H+    K  + + Y    G   F +D  + +E+ D +A
+Sbjct  7    KSPPTRNHYENFRKGMKVVTYQRTKGNTLFTVDC-DPVEVADLHA  50
+
+
+> DRAMP17760
+Length=96
+
+ Score = 22.7 bits (47),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 8/32 (25%), Positives = 17/32 (54%), Gaps = 0/32 (0%)
+
+Query  145  VVIRVNPGVEAHTHEFIQTGQEDSKFGLSIRH  176
+            + +R++  VEA  HE++   ++D      I +
+Sbjct  43   IPLRLSEAVEAQLHEYLAEAKDDKDLAKRIEN  74
+
+
+> DRAMP14186
+Length=62
+
+ Score = 21.9 bits (45),  Expect = 4.6, Method: Composition-based stats.
+ Identities = 10/29 (35%), Positives = 17/29 (59%), Gaps = 0/29 (0%)
+
+Query  381  YSMASNYNQMQKPPVFFLKDGKAREVIKR  409
+            +S  S +++     V+  +DGK RE+ KR
+Sbjct  10   WSRCSTWSRWFTGRVWLTRDGKCRELGKR  38
+
+
+> DRAMP13617
+Length=71
+
+ Score = 21.6 bits (44),  Expect = 5.5, Method: Composition-based stats.
+ Identities = 16/47 (35%), Positives = 22/47 (47%), Gaps = 1/47 (2%)
+
+Query  318  IRTALYGAKYQALLVNRHEKADETVTIAGKLCESGDIIIRDAMLPSS  364
+            +R  L  AK     V RH  A     +AG + +  D ++  A LPSS
+Sbjct  13   VRVGLIIAKSVGSAVERHRVARRLRHVAGSIVKELDHVVIRA-LPSS  58
+
+
+> DRAMP12530
+Length=36
+
+ Score = 21.6 bits (44),  Expect = 6.4, Method: Composition-based stats.
+ Identities = 8/13 (62%), Positives = 9/13 (70%), Gaps = 0/13 (0%)
+
+Query  297  TIKDIPEVNKYVS  309
+            T+KD PEV  Y S
+Sbjct  11   TVKDCPEVKNYKS  23
+
+
+> DRAMP12073
+Length=62
+
+ Score = 21.6 bits (44),  Expect = 6.4, Method: Composition-based stats.
+ Identities = 8/13 (62%), Positives = 9/13 (70%), Gaps = 0/13 (0%)
+
+Query  297  TIKDIPEVNKYVS  309
+            T+KD PEV  Y S
+Sbjct  37   TVKDCPEVKNYKS  49
+
+
+> DRAMP05766
+Length=84
+
+ Score = 20.8 bits (42),  Expect = 8.9, Method: Composition-based stats.
+ Identities = 8/27 (30%), Positives = 16/27 (60%), Gaps = 0/27 (0%)
+
+Query  296  GTIKDIPEVNKYVSIDGGMSDHIRTAL  322
+            GT  ++ E+ + VS D   ++H  T++
+Sbjct  24   GTFPEVQELEEAVSNDNAAAEHQETSV  50
+
+
+
+Lambda     K      H
+   0.317    0.135    0.379 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 18329492
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

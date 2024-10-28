@@ -1,0 +1,39 @@
+########################################
+# Program: matcher
+# Rundate: Sat 17 Dec 2022 19:58:16
+# Commandline: matcher
+#    -asequence ../../tmp/align_tmp/matcherp_SD9qJOd6OtctHg8xnB/SD9qJOd6OtctHg8xnB_1.in
+#    -bsequence ../../tmp/align_tmp/matcherp_SD9qJOd6OtctHg8xnB/SD9qJOd6OtctHg8xnB_2.in
+#    -datafile EBLOSUM50
+#    -outfile ../../tmp/align_tmp/matcherp_SD9qJOd6OtctHg8xnB/SD9qJOd6OtctHg8xnB.matcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/matcherp_SD9qJOd6OtctHg8xnB/SD9qJOd6OtctHg8xnB.matcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM50
+# Gap_penalty: 14
+# Extend_penalty: 4
+#
+# Length: 5
+# Identity:       2/5 (40.0%)
+# Similarity:     2/5 (40.0%)
+# Gaps:           0/5 ( 0.0%)
+# Score: 18
+# 
+#
+#=======================================
+
+           7
+       WGHEE
+       :   :
+       WHEAE
+           5
+
+
+#---------------------------------------
+#---------------------------------------

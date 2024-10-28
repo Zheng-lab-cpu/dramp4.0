@@ -1,0 +1,138 @@
+BLASTP 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= Pp3c8_21600
+
+Length=350
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP18660                                                          43.9    2e-06
+  DRAMP18659                                                          43.9    2e-06
+  DRAMP00666                                                          24.3    1.4  
+  DRAMP04803                                                          22.7    3.7  
+  DRAMP04502                                                          22.3    4.3  
+  DRAMP17676                                                          21.9    5.5  
+  DRAMP01375                                                          21.9    6.2  
+
+
+> DRAMP18660
+Length=32
+
+ Score = 43.9 bits (102),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 17/32 (54%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  14  IRIGINGFGRFGRLVARVSLERDDIELVAVND  45
+           +++GINGFGR GRLV R +     +E+VA+ND
+Sbjct  1   VKVGINGFGRIGRLVTRAAFHGKKVEVVAIND  32
+
+
+> DRAMP18659
+Length=32
+
+ Score = 43.9 bits (102),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 17/32 (54%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  14  IRIGINGFGRFGRLVARVSLERDDIELVAVND  45
+           +++GINGFGR GRLV R +     +E+VA+ND
+Sbjct  1   VKVGINGFGRIGRLVTRAAFHGKKVEVVAIND  32
+
+
+> DRAMP00666
+Length=74
+
+ Score = 24.3 bits (51),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 8/24 (34%), Positives = 14/24 (59%), Gaps = 0/24 (0%)
+
+Query  76  EQTFSFDGKKVAVLGYKELSEIPW  99
+           EQ   +DG K  + G+ ++ E P+
+Sbjct  26  EQNCGWDGNKTCIRGFNKIKEYPF  49
+
+
+> DRAMP04803
+Length=91
+
+ Score = 22.7 bits (47),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 11/37 (30%), Positives = 17/37 (46%), Gaps = 0/37 (0%)
+
+Query  132  IITGNSKDAPMFVMGVNECDYRSEYNVVAMASCTTNC  168
+            +I G+ KDA  ++     C  R+      +A C  NC
+Sbjct  51   MIIGDEKDAICYIKAALYCCKRTIQCYQDIAQCLRNC  87
+
+
+> DRAMP04502
+Length=51
+
+ Score = 22.3 bits (46),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 9/21 (43%), Positives = 12/21 (58%), Gaps = 0/21 (0%)
+
+Query  150  CDYRSEYNVVAMASCTTNCLT  170
+            CD  S   VV  ++C  NCL+
+Sbjct  3    CDLLSFGGVVGDSACAANCLS  23
+
+
+> DRAMP17676
+Length=80
+
+ Score = 21.9 bits (45),  Expect = 5.5, Method: Composition-based stats.
+ Identities = 10/27 (38%), Positives = 16/27 (60%), Gaps = 0/27 (0%)
+
+Query  75   DEQTFSFDGKKVAVLGYKELSEIPWGE  101
+            DE+  S D + +A L  K +S +P+ E
+Sbjct  30   DEKNISHDEQALAYLKEKGVSSLPYVE  56
+
+
+> DRAMP01375
+Length=32
+
+ Score = 21.9 bits (45),  Expect = 6.2, Method: Composition-based stats.
+ Identities = 11/25 (44%), Positives = 12/25 (48%), Gaps = 0/25 (0%)
+
+Query  126  GGAKKVIITGNSKDAPMFVMGVNEC  150
+            GGAKK  I   +K AP  V     C
+Sbjct  3    GGAKKNFIIAANKTAPQSVKKTFSC  27
+
+
+
+Lambda     K      H
+   0.320    0.136    0.406 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 24379584
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

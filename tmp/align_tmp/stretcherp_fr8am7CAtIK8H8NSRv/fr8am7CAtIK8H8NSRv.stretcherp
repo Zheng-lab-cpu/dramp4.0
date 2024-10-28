@@ -1,0 +1,39 @@
+########################################
+# Program: stretcher
+# Rundate: Mon 30 Jan 2023 21:39:47
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_fr8am7CAtIK8H8NSRv/fr8am7CAtIK8H8NSRv_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_fr8am7CAtIK8H8NSRv/fr8am7CAtIK8H8NSRv_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/stretcherp_fr8am7CAtIK8H8NSRv/fr8am7CAtIK8H8NSRv.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_fr8am7CAtIK8H8NSRv/fr8am7CAtIK8H8NSRv.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 48
+# Identity:      10/48 (20.8%)
+# Similarity:    13/48 (27.1%)
+# Gaps:          30/48 (62.5%)
+# Score: -41
+# 
+#
+#=======================================
+
+                                          10        20 
+EMBOSS G---------------------------QVGKSITRLAGRKFRKIWRK
+       :                           :.::  ::  :::  .  .:
+       GIINTLQKYYCRVRGGRCAVLSCLPKEEQIGKCSTR--GRKCCRR-KK
+               10        20        30          40      
+
+
+#---------------------------------------
+#---------------------------------------

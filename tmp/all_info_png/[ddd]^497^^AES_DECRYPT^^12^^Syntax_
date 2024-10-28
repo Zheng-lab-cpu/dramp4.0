@@ -1,0 +1,11 @@
+>[ddd]^497^^AES_DECRYPT^^12^^Syntax:
+AES_DECRYPT(crypt_str,key_str)
+
+This function decrypts data using the official AES (Advanced Encryption
+Standard) algorithm. For more information, see the description of
+AES_ENCRYPT().
+
+URL: http://dev.mysql.com/doc/refman/5.5/en/encryption-functions.html
+
+^^^^http://dev.mysql.com/doc/refman/5.5/en/encryption-functions.html^[ddd]
+2

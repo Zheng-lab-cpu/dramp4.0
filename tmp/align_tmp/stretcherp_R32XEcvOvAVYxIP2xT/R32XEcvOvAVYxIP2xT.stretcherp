@@ -1,0 +1,39 @@
+########################################
+# Program: stretcher
+# Rundate: Tue  1 Nov 2022 05:04:34
+# Commandline: stretcher
+#    -asequence ../../tmp/align_tmp/stretcherp_R32XEcvOvAVYxIP2xT/R32XEcvOvAVYxIP2xT_1.in
+#    -bsequence ../../tmp/align_tmp/stretcherp_R32XEcvOvAVYxIP2xT/R32XEcvOvAVYxIP2xT_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/stretcherp_R32XEcvOvAVYxIP2xT/R32XEcvOvAVYxIP2xT.stretcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/stretcherp_R32XEcvOvAVYxIP2xT/R32XEcvOvAVYxIP2xT.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 6
+# Identity:       2/6 (33.3%)
+# Similarity:     2/6 (33.3%)
+# Gaps:           0/6 ( 0.0%)
+# Score: -2
+# 
+#
+#=======================================
+
+            6
+       MADRID
+       ::    
+       MALAGA
+            6
+
+
+#---------------------------------------
+#---------------------------------------

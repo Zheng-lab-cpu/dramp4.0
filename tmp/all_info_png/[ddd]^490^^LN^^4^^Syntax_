@@ -1,0 +1,14 @@
+>[ddd]^490^^LN^^4^^Syntax:
+LN(X)
+
+Returns the natural logarithm of X; that is, the base-e logarithm of X.
+If X is less than or equal to 0, then NULL is returned.
+
+URL: http://dev.mysql.com/doc/refman/5.5/en/mathematical-functions.html
+
+^^mysql> SELECT LN(2);
+        -> 0.69314718055995
+mysql> SELECT LN(-2);
+        -> NULL
+^^http://dev.mysql.com/doc/refman/5.5/en/mathematical-functions.html^[ddd]
+2

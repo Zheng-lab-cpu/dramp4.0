@@ -1,0 +1,181 @@
+BLASTP 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= 
+Length=382
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP18492                                                           144    6e-37
+  DRAMP03472                                                           144    6e-37
+
+
+> DRAMP18492
+Length=74
+
+ Score =  144 bits (364),  Expect = 6e-37, Method: Compositional matrix adjust.
+ Identities = 71/74 (96%), Positives = 73/74 (99%), Gaps = 0/74 (0%)
+
+Query  1   MQIFVKTLTGKTITLEVESSDTIDNVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLADYN  60
+           MQIFVKTLTGKTITLEVE SDTI+NVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTL+DYN
+Sbjct  1   MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYN  60
+
+Query  61  IQKESTLHLVLRLR  74
+           IQKESTLHLVLRLR
+Sbjct  61  IQKESTLHLVLRLR  74
+
+
+ Score =  144 bits (364),  Expect = 6e-37, Method: Compositional matrix adjust.
+ Identities = 71/74 (96%), Positives = 73/74 (99%), Gaps = 0/74 (0%)
+
+Query  77   MQIFVKTLTGKTITLEVESSDTIDNVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLADYN  136
+            MQIFVKTLTGKTITLEVE SDTI+NVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTL+DYN
+Sbjct  1    MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYN  60
+
+Query  137  IQKESTLHLVLRLR  150
+            IQKESTLHLVLRLR
+Sbjct  61   IQKESTLHLVLRLR  74
+
+
+ Score =  144 bits (364),  Expect = 6e-37, Method: Compositional matrix adjust.
+ Identities = 71/74 (96%), Positives = 73/74 (99%), Gaps = 0/74 (0%)
+
+Query  153  MQIFVKTLTGKTITLEVESSDTIDNVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLADYN  212
+            MQIFVKTLTGKTITLEVE SDTI+NVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTL+DYN
+Sbjct  1    MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYN  60
+
+Query  213  IQKESTLHLVLRLR  226
+            IQKESTLHLVLRLR
+Sbjct  61   IQKESTLHLVLRLR  74
+
+
+ Score =  144 bits (364),  Expect = 6e-37, Method: Compositional matrix adjust.
+ Identities = 71/74 (96%), Positives = 73/74 (99%), Gaps = 0/74 (0%)
+
+Query  229  MQIFVKTLTGKTITLEVESSDTIDNVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLADYN  288
+            MQIFVKTLTGKTITLEVE SDTI+NVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTL+DYN
+Sbjct  1    MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYN  60
+
+Query  289  IQKESTLHLVLRLR  302
+            IQKESTLHLVLRLR
+Sbjct  61   IQKESTLHLVLRLR  74
+
+
+ Score =  144 bits (364),  Expect = 6e-37, Method: Compositional matrix adjust.
+ Identities = 71/74 (96%), Positives = 73/74 (99%), Gaps = 0/74 (0%)
+
+Query  305  MQIFVKTLTGKTITLEVESSDTIDNVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLADYN  364
+            MQIFVKTLTGKTITLEVE SDTI+NVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTL+DYN
+Sbjct  1    MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYN  60
+
+Query  365  IQKESTLHLVLRLR  378
+            IQKESTLHLVLRLR
+Sbjct  61   IQKESTLHLVLRLR  74
+
+
+> DRAMP03472
+Length=74
+
+ Score =  144 bits (364),  Expect = 6e-37, Method: Compositional matrix adjust.
+ Identities = 71/74 (96%), Positives = 73/74 (99%), Gaps = 0/74 (0%)
+
+Query  1   MQIFVKTLTGKTITLEVESSDTIDNVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLADYN  60
+           MQIFVKTLTGKTITLEVE SDTI+NVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTL+DYN
+Sbjct  1   MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYN  60
+
+Query  61  IQKESTLHLVLRLR  74
+           IQKESTLHLVLRLR
+Sbjct  61  IQKESTLHLVLRLR  74
+
+
+ Score =  144 bits (364),  Expect = 6e-37, Method: Compositional matrix adjust.
+ Identities = 71/74 (96%), Positives = 73/74 (99%), Gaps = 0/74 (0%)
+
+Query  77   MQIFVKTLTGKTITLEVESSDTIDNVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLADYN  136
+            MQIFVKTLTGKTITLEVE SDTI+NVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTL+DYN
+Sbjct  1    MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYN  60
+
+Query  137  IQKESTLHLVLRLR  150
+            IQKESTLHLVLRLR
+Sbjct  61   IQKESTLHLVLRLR  74
+
+
+ Score =  144 bits (364),  Expect = 6e-37, Method: Compositional matrix adjust.
+ Identities = 71/74 (96%), Positives = 73/74 (99%), Gaps = 0/74 (0%)
+
+Query  153  MQIFVKTLTGKTITLEVESSDTIDNVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLADYN  212
+            MQIFVKTLTGKTITLEVE SDTI+NVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTL+DYN
+Sbjct  1    MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYN  60
+
+Query  213  IQKESTLHLVLRLR  226
+            IQKESTLHLVLRLR
+Sbjct  61   IQKESTLHLVLRLR  74
+
+
+ Score =  144 bits (364),  Expect = 6e-37, Method: Compositional matrix adjust.
+ Identities = 71/74 (96%), Positives = 73/74 (99%), Gaps = 0/74 (0%)
+
+Query  229  MQIFVKTLTGKTITLEVESSDTIDNVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLADYN  288
+            MQIFVKTLTGKTITLEVE SDTI+NVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTL+DYN
+Sbjct  1    MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYN  60
+
+Query  289  IQKESTLHLVLRLR  302
+            IQKESTLHLVLRLR
+Sbjct  61   IQKESTLHLVLRLR  74
+
+
+ Score =  144 bits (364),  Expect = 6e-37, Method: Compositional matrix adjust.
+ Identities = 71/74 (96%), Positives = 73/74 (99%), Gaps = 0/74 (0%)
+
+Query  305  MQIFVKTLTGKTITLEVESSDTIDNVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLADYN  364
+            MQIFVKTLTGKTITLEVE SDTI+NVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTL+DYN
+Sbjct  1    MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYN  60
+
+Query  365  IQKESTLHLVLRLR  378
+            IQKESTLHLVLRLR
+Sbjct  61   IQKESTLHLVLRLR  74
+
+
+
+Lambda     K      H
+   0.316    0.136    0.366 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 26758080
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

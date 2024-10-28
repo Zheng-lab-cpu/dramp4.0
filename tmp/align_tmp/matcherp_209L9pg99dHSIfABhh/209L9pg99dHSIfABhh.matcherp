@@ -1,0 +1,39 @@
+########################################
+# Program: matcher
+# Rundate: Tue 14 Feb 2023 11:34:17
+# Commandline: matcher
+#    -asequence ../../tmp/align_tmp/matcherp_209L9pg99dHSIfABhh/209L9pg99dHSIfABhh_1.in
+#    -bsequence ../../tmp/align_tmp/matcherp_209L9pg99dHSIfABhh/209L9pg99dHSIfABhh_2.in
+#    -datafile EBLOSUM62
+#    -outfile ../../tmp/align_tmp/matcherp_209L9pg99dHSIfABhh/209L9pg99dHSIfABhh.matcherp
+# Align_format: markx0
+# Report_file: ../../tmp/align_tmp/matcherp_209L9pg99dHSIfABhh/209L9pg99dHSIfABhh.matcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 14
+# Extend_penalty: 4
+#
+# Length: 10
+# Identity:       8/10 (80.0%)
+# Similarity:     9/10 (90.0%)
+# Gaps:           1/10 (10.0%)
+# Score: 42
+# 
+#
+#=======================================
+
+                9
+       LIAWHC-MPN
+       .::::: :::
+       IIAWHCAMPN
+               10
+
+
+#---------------------------------------
+#---------------------------------------
